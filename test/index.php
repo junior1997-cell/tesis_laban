@@ -102,7 +102,7 @@
 
                         <form class="contact100-form validate-form" id="formulario_datos" action="test.php" >
                             <div class="row">
-                                <div class="col-lg-4">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                                     <div class="wrap-input100 m-b-10 validate-input" data-validate="Nombre es requerido">
                                         <input class="s1-txt4 placeholder0 input100" type="text" name="nombre" placeholder="Nombre*" />
                                         <span class="focus-input100"></span>
@@ -121,7 +121,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-lg-4">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                                     <div class="m-b-10 validate-input" data-validate="Sexo es requerido">
                                         <select name="sexo" id="sexo" class="s1-txt4 placeholder0 input100 form-control" style="height: 39px; border-radius: 15px; color: #999999;">
                                             <option value=""  >Sexo</option>
@@ -144,15 +144,32 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-lg-4">
-                                    <div class="m-b-10 validate-input " data-validate="Escuela Profesional es requerido">
-                                        <select name="escuela" id="" class="s1-txt4 placeholder0 input100 form-control " style="height: 39px; border-radius: 15px; color: #999999;">
-                                            <option value="" >Escuela Profesional *</option>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-12 ">
+									<div class="m-b-10 validate-input" data-validate="Universidad es requerido">
+										<select name="universidad" id="universidad" class="s1-txt4 placeholder0 input100 form-control" style="height: 39px; border-radius: 15px; color: #999999;">
+											<option value="">Universidad</option>
+											<option value="Universidad Peruana Unión">Universidad Peruana Unión</option>
+											<option value="Universidad Cesar Vallejo">Universidad Cesar Vallejo</option>
+											<option value="Universidad Nacional de San Martín">Universidad Nacional de San Martín</option>
+										</select>
+									</div>
+                                    <div class="m-b-10 validate-input" data-validate="Carrera es requerido">
+                                        <select name="carrera" id="carrera" class="s1-txt4 placeholder0 input100 form-control" style="height: 39px; border-radius: 15px; color: #999999;">
+                                            <option value="">Carrera</option>
+                                            <option value="Administración">Administración</option>
                                             <option value="Arquitectura">Arquitectura</option>
+                                            <option value="Contabilidad">Contabilidad</option>
+                                            <option value="Derecho">Derecho</option>
                                             <option value="Ingeniería Ambiental">Ingeniería Ambiental</option>
+                                            <option value="Ingeniería Civil">Ingeniería Civil</option>
+                                            <option value="Psicología">Psicología</option>
+                                            <option value="Ingeniería Industrial">Ingeniería Industrial</option>
+                                            <option value="Ciencias de la Comunicación">Ciencias de la Comunicación</option>
                                             <option value="Ingeniería de Sistemas">Ingeniería de Sistemas</option>
+                                            <option value="Enfermería">Enfermería</option>
+                                            <option value="Marketing y Negocios Internacionales">Marketing y Negocios Internacionales</option>
+                                            <option value="Medicina Humana">Medicina Humana</option>
                                         </select>
-										<span class="focus-input100"></span>
                                     </div>
                                     <div class="m-b-10 validate-input" data-validate="Tipo de Colegio es requerido">
                                         <select name="tipo_colegio" id="tipo_colegio"  class="s1-txt4 placeholder0 input100 form-control js-example-basic-single" style="height: 39px; border-radius: 15px; color: #999999;">
@@ -174,7 +191,7 @@
 
                                     <div class="w-full">
                                         <button class="flex-c-m s1-txt2 size5 how-btn1 trans-04" type="submit">
-                                            Ir al test
+                                            Iniciar test
                                         </button>
                                     </div>
                                 </div>
