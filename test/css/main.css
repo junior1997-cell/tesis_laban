@@ -278,7 +278,7 @@ input.input100 {
 /*//////////////////////////////////////////////////////////////////
 [ L-Text >= 26 ]*/
 .l1-txt1 {
-  font-family: Montserrat-Black;
+ /* font-family: Montserrat-Black;*/
   font-size: 50px;
   color: #fff;
   line-height: 1.2;
@@ -286,7 +286,8 @@ input.input100 {
 }
 
 .l1-txt2 {
-  font-family: Montserrat-Light;
+ /* font-family: Montserrat-Light;*/
+ font-weight: bolder;
   font-size: 30px;
   color: #fff;
   line-height: 1.2;
