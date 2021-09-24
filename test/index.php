@@ -31,6 +31,7 @@
             width: 90px;
             height: 90px;
         }
+
     </style>
     <body>
         <div style="position: absolute;">
