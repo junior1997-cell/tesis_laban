@@ -1776,10 +1776,9 @@
                    Haz finalizado el test felicitaciones!!
                 </p>
 
-                <div class="flex-w flex-c cd100 p-b-82">
-                    <h1>Haz finalizado el test felicitaciones!!</h1>
-
-                </div>
+				<div class="flex-w flex-c cd100 p-b-82">
+					<img src="images/gracias.gif" alt="" width="200">
+				</div>
 
                 <a class="flex-c-m s1-txt2 size3 how-btn" type="button" href="index.php">
                     Regresar al inicio
