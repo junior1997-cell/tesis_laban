@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Coming Soon 4</title>
+	<title>Test Ice de Baron- Campus Tarapoto</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -21,18 +21,37 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
 </head>
+<style>
+video {  
+  max-width: 100%;
+  max-height: 100%;
+  /*width: auto;
+  height: auto;
+  position: fixed;   
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);  
+  z-index: -100;
+  background-size: cover;*/
+}
+
+	
+</style>
 <body>
-	
-	
-	<div class="bg-g1 size1 flex-w flex-col-c-sb p-l-15 p-r-15 p-t-55 p-b-35 respon1">
-		<span></span>
+	<div style="position: absolute;">
+		<video autoplay="" muted="" loop="" class="video">
+		  <source src="images/v_fondo.mp4" type="video/mp4">
+		</video>
+		<div class="overlay"></div>
+	</div>
+	<div class="size1 flex-w flex-col-c-sb p-l-15 p-r-15 p-t-55 p-b-35 respon1" style="position: absolute;" >
 		<div class="flex-col-c p-t-50 p-b-50">
 			<h3 class="l1-txt1 txt-center p-b-10">
-				Coming Soon
+			Test Ice de Baron
 			</h3>
 
 			<p class="txt-center l1-txt2 p-b-60">
-				Our website is under construction
+				Estudiantes que realizarón el Test
 			</p>
 
 			<div class="flex-w flex-c cd100 p-b-82">
@@ -58,15 +77,12 @@
 			</div>
 
 			<button class="flex-c-m s1-txt2 size3 how-btn"  data-toggle="modal" data-target="#subscribe">
-				Follow us for update now!
+				Realizar test
 			</button>
 		</div>
-
-		<span class="s1-txt3 txt-center">
-			@ 2017 Coming Soon Template. Designed by Colorlib
-		</span>
-		
 	</div>
+
+		
 
 	<!-- Modal Login -->
 	<div class="modal fade" id="subscribe" tabindex="-1" role="dialog" aria-hidden="true">
