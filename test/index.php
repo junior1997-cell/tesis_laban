@@ -114,11 +114,11 @@
                             <div class="row">
                                 <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                                     <div class="wrap-input100 m-b-10 validate-input" data-validate="Nombre es requerido">
-                                        <input class="s1-txt4 placeholder0 input100" type="text" name="nombre" placeholder="Nombre*" />
+                                        <input class="s1-txt4 placeholder0 input100" type="text" name="nombre" placeholder="Nombre*" id="nombre" />
                                         <span class="focus-input100"></span>
                                     </div>
                                     <div class="wrap-input100 m-b-10 validate-input" data-validate="Aprellido es requerido">
-                                        <input class="s1-txt4 placeholder0 input100" type="text" name="apellidos" placeholder="Apellidos*" />
+                                        <input class="s1-txt4 placeholder0 input100" type="text" name="apellidos" placeholder="Apellidos*" id="apellidos" />
                                         <span class="focus-input100"></span>
                                     </div>
                                     <div class="wrap-input100 m-b-20 validate-input" data-validate="Código requerido">
@@ -146,7 +146,7 @@
                                     </div>
 
                                     <div class="wrap-input100 m-b-20 validate-input" data-validate="Número de teléfono requerido">
-                                        <input class="s1-txt4 placeholder0 input100" type="number" name="celular" placeholder="Número de Teléfono *" />
+                                        <input class="s1-txt4 placeholder0 input100" type="number" name="celular" id="celular" placeholder="Número de Teléfono *" />
                                         <span class="focus-input100"></span>
                                     </div>
                                     <div class="m-b-10 validate-input" data-validate="Provincia es requerido">

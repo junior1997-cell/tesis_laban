@@ -59,6 +59,8 @@ function init() {
 
                 showValidate(input[i]);
 
+                
+
                 check=false;
             }
         }
@@ -75,7 +77,7 @@ function init() {
         });
     });
 
-    function validate (input) {
+    function validate (input) {        
 
         if($(input).attr('type') == 'email' || $(input).attr('name') == 'email') {
 
@@ -112,6 +114,28 @@ function init() {
     $('.modal-subscribe').on('click',function(e){
 
         e.stopPropagation();
+        localStorage.setItem('nombre', $("#nombre").val()); 
+        localStorage.setItem('apellidos', $("#apellidos").val()); 
+        localStorage.setItem('codigo_estudiante', $("#codigo_estudiante").val()); 
+        localStorage.setItem('distrito', $("#distrito").val()); 
+        localStorage.setItem('sexo', $("#sexo").val());
+        localStorage.setItem('nacimiento', $("#nacimiento").val()); 
+        localStorage.setItem('celular', $("#celular").val()); 
+        localStorage.setItem('provincia', $("#provincia").val()); 
+        localStorage.setItem('universidad', $("#universidad").val()); 
+        localStorage.setItem('carrera', $("#carrera").val());
+        localStorage.setItem('tipo_colegio', $("#tipo_colegio").val());    
+        console.log($("#nombre").val());
+        console.log($("#apellidos").val());
+        console.log($("#codigo_estudiante").val());
+        console.log($("#distrito").val());
+        console.log($("#sexo").val());
+        console.log($("#nacimiento").val());
+        console.log($("#celular").val());
+        console.log($("#provincia").val());
+        console.log($("#universidad").val());
+        console.log($("#carrera").val());
+        console.log($("#tipo_colegio").val());
     })
     
     $('.btn-close-modal').on('click', function(e){
