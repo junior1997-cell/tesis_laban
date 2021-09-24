@@ -94,28 +94,90 @@ video {
 
 				<div class="wsize1 m-lr-auto">
 					<h3 class="m1-txt1 txt-center p-b-36">
-						<span class="bor1 p-b-6">Subscribe</span>
+						<span class="bor1 p-b-6">Registra tus datos</span>
 					</h3>
 
 					<p class="m1-txt2 txt-center p-b-40">
-						Follow us for update now!
+						Para iniciar tu test Ice de Baron 
 					</p>
 
 					<form class="contact100-form validate-form">
-						<div class="wrap-input100 m-b-10 validate-input" data-validate = "Name is required">
-							<input class="s1-txt4 placeholder0 input100" type="text" name="name" placeholder="Name">
-							<span class="focus-input100"></span>
-						</div>
+						<div class="row">
+							<div class="col-lg-4">
+								<div class="wrap-input100 m-b-10 validate-input" data-validate = "Name es requerido">
+									<input class="s1-txt4 placeholder0 input100" type="text" name="name" placeholder="Nombre*">
+									<span class="focus-input100"></span>
+								</div>
+								<div class="wrap-input100 m-b-10 validate-input" data-validate = "Name is required">
+									<input class="s1-txt4 placeholder0 input100" type="text" name="apellidos" placeholder="Apellidos*">
+									<span class="focus-input100"></span>
+								</div>
+								<div class="wrap-input100 m-b-20 validate-input" data-validate = "Email is required: ex@abc.xyz">
+									<input class="s1-txt4 placeholder0 input100" type="text" name="email" placeholder="Código de Estudiante *">
+									<span class="focus-input100"></span>
+								</div>
+								<div class=" m-b-10">
+								<select name="" id="" class="s1-txt4 placeholder0 input100 form-control" style="height: 39px; border-radius: 15px; color: #999999;">
+									<option selected disabled >Distrito</option>
+								</select>
+							</div>
 
-						<div class="wrap-input100 m-b-20 validate-input" data-validate = "Email is required: ex@abc.xyz">
-							<input class="s1-txt4 placeholder0 input100" type="text" name="email" placeholder="Email">
-							<span class="focus-input100"></span>
-						</div>
+							</div>
+							<div class="col-lg-4">
+								<div class=" m-b-10">
+									<select name="" id="" class="s1-txt4 placeholder0 input100 form-control" style="height: 39px; border-radius: 15px; color: #999999;">
+										<option selected disabled >Sexo</option>
+										<option value="Masculino">Masculino</option>
+										<option value="Femenino">Femenino</option>
+									</select>
+								</div>
 
-						<div class="w-full">
-							<button class="flex-c-m s1-txt2 size5 how-btn1 trans-04">
-								Get Updates
-							</button>
+								<div class="wrap-input100 m-b-10 validate-input" data-validate = "Name is required">
+								    <input id="fecha" class="input100"  type="date" name="nacimiento" placeholder="Fecha de Nacimiento"  style="height: 39px; border-radius: 15px; color: #999999;">
+									<span class="focus-input100"></span>
+									
+								</div>
+
+								<div class="wrap-input100 m-b-20 validate-input" data-validate = "Email is required: ex@abc.xyz">
+									<input class="s1-txt4 placeholder0 input100" type="text" name="email" placeholder="Número de Teléfono *">
+									<span class="focus-input100"></span>
+								</div>
+								<div class=" m-b-10">
+								<select name="" id="" class="s1-txt4 placeholder0 input100 form-control" style="height: 39px; border-radius: 15px; color: #999999;">
+									<option selected disabled >Provincia</option>
+								</select>
+							</div>
+							</div>
+							<div class="col-lg-4">
+
+							<div class=" m-b-10">
+								<select name="" id="" class="s1-txt4 placeholder0 input100 form-control" style="height: 39px; border-radius: 15px; color: #999999;">
+									<option selected disabled >Escuela Profesional *</option>
+									<option  value="Arquitectura">Arquitectura</option>
+									<option value="Ingeniería Ambiental">Ingeniería Ambiental</option>
+									<option value="Ingeniería de Sistemas">Ingeniería de Sistemas</option>
+								</select>
+							</div>
+							<div class=" m-b-10">
+								<select name="" id="" class="s1-txt4 placeholder0 input100 form-control" style="height: 39px; border-radius: 15px; color: #999999;">
+									<option selected disabled >Tipo Colegio</option>
+									<option value="Nacional">Nacional</option>
+									<option value="Privado">Privado</option>
+								</select>
+							</div>
+							<div class=" m-b-10">
+								<select name="" id="" class="s1-txt4 placeholder0 input100 form-control" style="height: 39px; border-radius: 15px; color: #999999;">
+									<option selected disabled >Departamento</option>
+								</select>
+							</div>
+
+
+								<div class="w-full">
+									<button class="flex-c-m s1-txt2 size5 how-btn1 trans-04">
+										Get Updates
+									</button>
+								</div>
+							</div>
 						</div>
 					</form>
 
@@ -155,6 +217,24 @@ video {
 			timeZone: "" 
 			// ex:  timeZone: "America/New_York", can be empty
 			// go to " http://momentjs.com/timezone/ " to get timezone
+		});
+
+		window.addEventListener('load',function(){
+
+			document.getElementById('fecha').type= 'text';
+
+			document.getElementById('fecha').addEventListener('blur',function(){
+
+			document.getElementById('fecha').type= 'text';
+
+			});
+
+			document.getElementById('fecha').addEventListener('focus',function(){
+
+			document.getElementById('fecha').type= 'date';
+
+			});
+
 		});
 	</script>
 <!--===============================================================================================-->
