@@ -1,4 +1,5 @@
 
+
 //Función que se ejecuta al inicio
 function init(){
 	
@@ -10,7 +11,21 @@ function init(){
 
 }
 
-function pintarrespuestas(id){
+function pintarrespuestas(p,r){
+    console.log(p+'--'+r);
+    var cont=0;
+     $(".p"+p+"-r"+r).addClass('pintar-respuesta');
+     if (p==1) {
+        $(".pregunta-1").hide();
+        $(".pregunta-2").show();
+     }else {
+         cont=p+1;
+        console.log(cont);
+        $(".pregunta-"+p).hide();
+        $(".pregunta-"+cont).show();
+
+     }
+     //console.log('Holaaaaaaaaaaaaaaaaaaaaaaaaaa');
 
 }
 
