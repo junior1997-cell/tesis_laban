@@ -83,9 +83,9 @@ body {padding-right: 0px !important;}
   width: 100%;
   position: relative;
   background-color: #fff;
-  height: 50px;
+  height: 40px;
   border: 2px solid #e6e6e6;
-  border-radius: 25px;
+  border-radius: 15px;
 }
 
 /*---------------------------------------------*/
@@ -97,7 +97,7 @@ body {padding-right: 0px !important;}
 
 input.input100 {
   height: 100%;
-  padding: 0 30px 0 30px;
+  padding: 0 30px 0 15px;
 }
 
 
@@ -322,7 +322,7 @@ input.input100 {
 }
 
 .size4 {
-  width: 686px;
+  width: 886px;
   max-width: 100%;
 }
 
@@ -334,7 +334,7 @@ input.input100 {
 /*//////////////////////////////////////////////////////////////////
 [ Width ]*/
 .wsize1 {
-  max-width: 390px;
+  max-width: 800px;
 }
 
 .wsize2 {
