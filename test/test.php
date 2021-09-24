@@ -21,6 +21,9 @@
         <link rel="stylesheet" type="text/css" href="css/main.css" />
         <link rel="stylesheet" type="text/css" href="css/mi_stylo.css" />
         <!--===============================================================================================-->
+
+		<!-- Toastr -->
+		<link rel="stylesheet" href="toastr/toastr.min.css">
     </head>
     <style>
         video {
@@ -1795,6 +1798,10 @@
         <!--===============================================================================================-->
         <script src="vendor/select2/select2.min.js"></script>
         <!--===============================================================================================-->
+
+		<!-- Toastr -->
+		<script src="toastr/toastr.min.js"></script>
+		
         <script src="vendor/countdowntime/moment.min.js"></script>
         <script src="vendor/countdowntime/moment-timezone.min.js"></script>
         <script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>

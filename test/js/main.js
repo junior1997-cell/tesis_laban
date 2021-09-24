@@ -118,7 +118,7 @@ function init() {
 
         $('#subscribe').modal('hide'); 
 
-        toastr.success("Bienvenido al sistema !!") 
+         
     });
 
 })(jQuery);

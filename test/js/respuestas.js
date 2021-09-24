@@ -8,6 +8,7 @@ function init(){
 
 	});
 
+    toastr.success("Bienvenido al Test de Baron !!")
 }
 
 function pintarrespuestas(p,r){
@@ -17,12 +18,13 @@ function pintarrespuestas(p,r){
      if (p==1) {
         $(".pregunta-1").hide();
         $(".pregunta-2").show();
+        toastr.success("Cambios guardados !!")
      }else {
          cont=p+1;
         console.log(cont);
         $(".pregunta-"+p).hide();
         $(".pregunta-"+cont).show();
-
+        toastr.success("Cambios guardados !!")
      }
      //console.log('Holaaaaaaaaaaaaaaaaaaaaaaaaaa');
 
