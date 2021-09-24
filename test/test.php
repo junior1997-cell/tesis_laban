@@ -60,19 +60,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p1-r1 pintar-hover" onclick="pintarrespuestas(1,1)">
+                    <div class="flex-col-c-m size2 how-countdown p1-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(1,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p1-r2 pintar-hover" onclick="pintarrespuestas(1,2)">
+                    <div class="flex-col-c-m size2 how-countdown p1-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(1,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p1-r3 pintar-hover" onclick="pintarrespuestas(1,3)">
+                    <div class="flex-col-c-m size2 how-countdown p1-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(1,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p1-r4 pintar-hover" onclick="pintarrespuestas(1,4)">
+                    <div class="flex-col-c-m size2 how-countdown p1-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(1,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -88,19 +88,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p2-r1 pintar-hover" onclick="pintarrespuestas(2,1)">
+                    <div class="flex-col-c-m size2 how-countdown p2-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(2,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p2-r2 pintar-hover" onclick="pintarrespuestas(2,2)">
+                    <div class="flex-col-c-m size2 how-countdown p2-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(2,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p2-r3 pintar-hover" onclick="pintarrespuestas(2,3)">
+                    <div class="flex-col-c-m size2 how-countdown p2-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(2,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p2-r4 pintar-hover" onclick="pintarrespuestas(2,4)">
+                    <div class="flex-col-c-m size2 how-countdown p2-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(2,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -116,19 +116,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p3-r1 pintar-hover" onclick="pintarrespuestas(3,1)">
+                    <div class="flex-col-c-m size2 how-countdown p3-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(3,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p3-r2 pintar-hover" onclick="pintarrespuestas(3,2)">
+                    <div class="flex-col-c-m size2 how-countdown p3-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(3,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p3-r3 pintar-hover" onclick="pintarrespuestas(3,3)">
+                    <div class="flex-col-c-m size2 how-countdown p3-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(3,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p3-r4 pintar-hover" onclick="pintarrespuestas(3,4)">
+                    <div class="flex-col-c-m size2 how-countdown p3-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(3,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -144,19 +144,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p4-r1 pintar-hover" onclick="pintarrespuestas(4,1)">
+                    <div class="flex-col-c-m size2 how-countdown p4-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(4,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p4-r2 pintar-hover" onclick="pintarrespuestas(4,2)">
+                    <div class="flex-col-c-m size2 how-countdown p4-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(4,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p4-r3 pintar-hover" onclick="pintarrespuestas(4,3)">
+                    <div class="flex-col-c-m size2 how-countdown p4-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(4,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p4-r4 pintar-hover" onclick="pintarrespuestas(4,4)">
+                    <div class="flex-col-c-m size2 how-countdown p4-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(4,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -172,19 +172,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p5-r1 pintar-hover" onclick="pintarrespuestas(5,1)">
+                    <div class="flex-col-c-m size2 how-countdown p5-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(5,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p5-r2 pintar-hover" onclick="pintarrespuestas(5,2)">
+                    <div class="flex-col-c-m size2 how-countdown p5-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(5,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p5-r3 pintar-hover" onclick="pintarrespuestas(5,3)">
+                    <div class="flex-col-c-m size2 how-countdown p5-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(5,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p5-r4 pintar-hover" onclick="pintarrespuestas(5,4)">
+                    <div class="flex-col-c-m size2 how-countdown p5-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(5,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -200,19 +200,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p6-r1 pintar-hover" onclick="pintarrespuestas(6,1)">
+                    <div class="flex-col-c-m size2 how-countdown p6-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(6,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p6-r2 pintar-hover" onclick="pintarrespuestas(6,2)">
+                    <div class="flex-col-c-m size2 how-countdown p6-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(6,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p6-r3 pintar-hover" onclick="pintarrespuestas(6,3)">
+                    <div class="flex-col-c-m size2 how-countdown p6-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(6,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p6-r4 pintar-hover" onclick="pintarrespuestas(6,4)">
+                    <div class="flex-col-c-m size2 how-countdown p6-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(6,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -228,19 +228,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p7-r1 pintar-hover" onclick="pintarrespuestas(7,1)">
+                    <div class="flex-col-c-m size2 how-countdown p7-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(7,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p7-r2 pintar-hover" onclick="pintarrespuestas(7,2)">
+                    <div class="flex-col-c-m size2 how-countdown p7-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(7,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p7-r3 pintar-hover" onclick="pintarrespuestas(7,3)">
+                    <div class="flex-col-c-m size2 how-countdown p7-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(7,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p7-r4 pintar-hover" onclick="pintarrespuestas(7,4)">
+                    <div class="flex-col-c-m size2 how-countdown p7-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(7,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -256,19 +256,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p8-r1 pintar-hover" onclick="pintarrespuestas(8,1)">
+                    <div class="flex-col-c-m size2 how-countdown p8-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(8,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p8-r2 pintar-hover" onclick="pintarrespuestas(8,2)">
+                    <div class="flex-col-c-m size2 how-countdown p8-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(8,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p8-r3 pintar-hover" onclick="pintarrespuestas(8,3)">
+                    <div class="flex-col-c-m size2 how-countdown p8-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(8,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p8-r4 pintar-hover" onclick="pintarrespuestas(8,4)">
+                    <div class="flex-col-c-m size2 how-countdown p8-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(8,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -284,19 +284,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p9-r1 pintar-hover" onclick="pintarrespuestas(9,1)">
+                    <div class="flex-col-c-m size2 how-countdown p9-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(9,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p9-r2 pintar-hover" onclick="pintarrespuestas(9,2)">
+                    <div class="flex-col-c-m size2 how-countdown p9-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(9,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p9-r3 pintar-hover" onclick="pintarrespuestas(9,3)">
+                    <div class="flex-col-c-m size2 how-countdown p9-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(9,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p9-r4 pintar-hover" onclick="pintarrespuestas(9,4)">
+                    <div class="flex-col-c-m size2 how-countdown p9-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(9,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -312,19 +312,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p10-r1 pintar-hover" onclick="pintarrespuestas(10,1)">
+                    <div class="flex-col-c-m size2 how-countdown p10-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(10,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p10-r2 pintar-hover" onclick="pintarrespuestas(10,2)">
+                    <div class="flex-col-c-m size2 how-countdown p10-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(10,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p10-r3 pintar-hover" onclick="pintarrespuestas(10,3)">
+                    <div class="flex-col-c-m size2 how-countdown p10-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(10,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p10-r4 pintar-hover" onclick="pintarrespuestas(10,4)">
+                    <div class="flex-col-c-m size2 how-countdown p10-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(10,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -340,19 +340,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p11-r1 pintar-hover" onclick="pintarrespuestas(11,1)">
+                    <div class="flex-col-c-m size2 how-countdown p11-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(11,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p11-r2 pintar-hover" onclick="pintarrespuestas(11,2)">
+                    <div class="flex-col-c-m size2 how-countdown p11-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(11,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p11-r3 pintar-hover" onclick="pintarrespuestas(11,3)">
+                    <div class="flex-col-c-m size2 how-countdown p11-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(11,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p11-r4 pintar-hover" onclick="pintarrespuestas(11,4)">
+                    <div class="flex-col-c-m size2 how-countdown p11-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(11,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -368,19 +368,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p12-r1 pintar-hover" onclick="pintarrespuestas(12,1)">
+                    <div class="flex-col-c-m size2 how-countdown p12-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(12,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p12-r2 pintar-hover" onclick="pintarrespuestas(12,2)">
+                    <div class="flex-col-c-m size2 how-countdown p12-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(12,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p12-r3 pintar-hover" onclick="pintarrespuestas(12,3)">
+                    <div class="flex-col-c-m size2 how-countdown p12-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(12,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p12-r4 pintar-hover" onclick="pintarrespuestas(12,4)">
+                    <div class="flex-col-c-m size2 how-countdown p12-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(12,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -396,19 +396,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p13-r1 pintar-hover" onclick="pintarrespuestas(13,1)">
+                    <div class="flex-col-c-m size2 how-countdown p13-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(13,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p13-r2 pintar-hover" onclick="pintarrespuestas(13,2)">
+                    <div class="flex-col-c-m size2 how-countdown p13-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(13,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p13-r3 pintar-hover" onclick="pintarrespuestas(13,3)">
+                    <div class="flex-col-c-m size2 how-countdown p13-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(13,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p13-r4 pintar-hover" onclick="pintarrespuestas(13,4)">
+                    <div class="flex-col-c-m size2 how-countdown p13-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(13,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -424,19 +424,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p14-r1 pintar-hover" onclick="pintarrespuestas(14,1)">
+                    <div class="flex-col-c-m size2 how-countdown p14-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(14,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p14-r2 pintar-hover" onclick="pintarrespuestas(14,2)">
+                    <div class="flex-col-c-m size2 how-countdown p14-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(14,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p14-r3 pintar-hover" onclick="pintarrespuestas(14,3)">
+                    <div class="flex-col-c-m size2 how-countdown p14-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(14,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p14-r4 pintar-hover" onclick="pintarrespuestas(14,4)">
+                    <div class="flex-col-c-m size2 how-countdown p14-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(14,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -452,19 +452,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p15-r1 pintar-hover" onclick="pintarrespuestas(15,1)">
+                    <div class="flex-col-c-m size2 how-countdown p15-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(15,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p15-r2 pintar-hover" onclick="pintarrespuestas(15,2)">
+                    <div class="flex-col-c-m size2 how-countdown p15-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(15,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p15-r3 pintar-hover" onclick="pintarrespuestas(15,3)">
+                    <div class="flex-col-c-m size2 how-countdown p15-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(15,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p15-r4 pintar-hover" onclick="pintarrespuestas(15,4)">
+                    <div class="flex-col-c-m size2 how-countdown p15-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(15,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -480,19 +480,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p16-r1 pintar-hover" onclick="pintarrespuestas(16,1)">
+                    <div class="flex-col-c-m size2 how-countdown p16-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(16,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p16-r2 pintar-hover" onclick="pintarrespuestas(16,2)">
+                    <div class="flex-col-c-m size2 how-countdown p16-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(16,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p16-r3 pintar-hover" onclick="pintarrespuestas(16,3)">
+                    <div class="flex-col-c-m size2 how-countdown p16-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(16,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p16-r4 pintar-hover" onclick="pintarrespuestas(16,4)">
+                    <div class="flex-col-c-m size2 how-countdown p16-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(16,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -508,19 +508,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p17-r1 pintar-hover" onclick="pintarrespuestas(17,1)">
+                    <div class="flex-col-c-m size2 how-countdown p17-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(17,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p17-r2 pintar-hover" onclick="pintarrespuestas(17,2)">
+                    <div class="flex-col-c-m size2 how-countdown p17-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(17,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p17-r3 pintar-hover" onclick="pintarrespuestas(17,3)">
+                    <div class="flex-col-c-m size2 how-countdown p17-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(17,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p17-r4 pintar-hover" onclick="pintarrespuestas(17,4)">
+                    <div class="flex-col-c-m size2 how-countdown p17-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(17,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -536,19 +536,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p18-r1 pintar-hover" onclick="pintarrespuestas(18,1)">
+                    <div class="flex-col-c-m size2 how-countdown p18-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(18,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p18-r2 pintar-hover" onclick="pintarrespuestas(18,2)">
+                    <div class="flex-col-c-m size2 how-countdown p18-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(18,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p18-r3 pintar-hover" onclick="pintarrespuestas(18,3)">
+                    <div class="flex-col-c-m size2 how-countdown p18-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(18,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p18-r4 pintar-hover" onclick="pintarrespuestas(18,4)">
+                    <div class="flex-col-c-m size2 how-countdown p18-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(18,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -564,19 +564,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p19-r1 pintar-hover" onclick="pintarrespuestas(19,1)">
+                    <div class="flex-col-c-m size2 how-countdown p19-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(19,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p19-r2 pintar-hover" onclick="pintarrespuestas(19,2)">
+                    <div class="flex-col-c-m size2 how-countdown p19-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(19,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p19-r3 pintar-hover" onclick="pintarrespuestas(19,3)">
+                    <div class="flex-col-c-m size2 how-countdown p19-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(19,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p19-r4 pintar-hover" onclick="pintarrespuestas(19,4)">
+                    <div class="flex-col-c-m size2 how-countdown p19-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(19,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -592,19 +592,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p20-r1 pintar-hover" onclick="pintarrespuestas(20,1)">
+                    <div class="flex-col-c-m size2 how-countdown p20-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(20,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p20-r2 pintar-hover" onclick="pintarrespuestas(20,2)">
+                    <div class="flex-col-c-m size2 how-countdown p20-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(20,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p20-r3 pintar-hover" onclick="pintarrespuestas(20,3)">
+                    <div class="flex-col-c-m size2 how-countdown p20-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(20,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p20-r4 pintar-hover" onclick="pintarrespuestas(20,4)">
+                    <div class="flex-col-c-m size2 how-countdown p20-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(20,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -620,19 +620,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p21-r1 pintar-hover" onclick="pintarrespuestas(21,1)">
+                    <div class="flex-col-c-m size2 how-countdown p21-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(21,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p21-r2 pintar-hover" onclick="pintarrespuestas(21,2)">
+                    <div class="flex-col-c-m size2 how-countdown p21-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(21,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p21-r3 pintar-hover" onclick="pintarrespuestas(21,3)">
+                    <div class="flex-col-c-m size2 how-countdown p21-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(21,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p21-r4 pintar-hover" onclick="pintarrespuestas(21,4)">
+                    <div class="flex-col-c-m size2 how-countdown p21-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(21,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -648,19 +648,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p22-r1 pintar-hover" onclick="pintarrespuestas(22,1)">
+                    <div class="flex-col-c-m size2 how-countdown p22-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(22,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p22-r2 pintar-hover" onclick="pintarrespuestas(22,2)">
+                    <div class="flex-col-c-m size2 how-countdown p22-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(22,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p22-r3 pintar-hover" onclick="pintarrespuestas(22,3)">
+                    <div class="flex-col-c-m size2 how-countdown p22-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(22,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p22-r4 pintar-hover" onclick="pintarrespuestas(22,4)">
+                    <div class="flex-col-c-m size2 how-countdown p22-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(22,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -676,19 +676,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p23-r1 pintar-hover" onclick="pintarrespuestas(23,1)">
+                    <div class="flex-col-c-m size2 how-countdown p23-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(23,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p23-r2 pintar-hover" onclick="pintarrespuestas(23,2)">
+                    <div class="flex-col-c-m size2 how-countdown p23-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(23,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p23-r3 pintar-hover" onclick="pintarrespuestas(23,3)">
+                    <div class="flex-col-c-m size2 how-countdown p23-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(23,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p23-r4 pintar-hover" onclick="pintarrespuestas(23,4)">
+                    <div class="flex-col-c-m size2 how-countdown p23-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(23,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -705,19 +705,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p24-r1 pintar-hover" onclick="pintarrespuestas(24,1)">
+                    <div class="flex-col-c-m size2 how-countdown p24-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(24,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p24-r2 pintar-hover" onclick="pintarrespuestas(24,2)">
+                    <div class="flex-col-c-m size2 how-countdown p24-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(24,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p24-r3 pintar-hover" onclick="pintarrespuestas(24,3)">
+                    <div class="flex-col-c-m size2 how-countdown p24-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(24,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p24-r4 pintar-hover" onclick="pintarrespuestas(24,4)">
+                    <div class="flex-col-c-m size2 how-countdown p24-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(24,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -734,19 +734,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p25-r1 pintar-hover" onclick="pintarrespuestas(25,1)">
+                    <div class="flex-col-c-m size2 how-countdown p25-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(25,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p25-r2 pintar-hover" onclick="pintarrespuestas(25,2)">
+                    <div class="flex-col-c-m size2 how-countdown p25-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(25,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p25-r3 pintar-hover" onclick="pintarrespuestas(25,3)">
+                    <div class="flex-col-c-m size2 how-countdown p25-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(25,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p25-r4 pintar-hover" onclick="pintarrespuestas(25,4)">
+                    <div class="flex-col-c-m size2 how-countdown p25-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(25,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -763,19 +763,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p26-r1 pintar-hover" onclick="pintarrespuestas(26,1)">
+                    <div class="flex-col-c-m size2 how-countdown p26-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(26,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p26-r2 pintar-hover" onclick="pintarrespuestas(26,2)">
+                    <div class="flex-col-c-m size2 how-countdown p26-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(26,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p26-r3 pintar-hover" onclick="pintarrespuestas(26,3)">
+                    <div class="flex-col-c-m size2 how-countdown p26-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(26,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p26-r4 pintar-hover" onclick="pintarrespuestas(26,4)">
+                    <div class="flex-col-c-m size2 how-countdown p26-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(26,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -792,19 +792,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p27-r1 pintar-hover" onclick="pintarrespuestas(27,1)">
+                    <div class="flex-col-c-m size2 how-countdown p27-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(27,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p27-r2 pintar-hover" onclick="pintarrespuestas(27,2)">
+                    <div class="flex-col-c-m size2 how-countdown p27-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(27,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p27-r3 pintar-hover" onclick="pintarrespuestas(27,3)">
+                    <div class="flex-col-c-m size2 how-countdown p27-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(27,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p27-r4 pintar-hover" onclick="pintarrespuestas(27,4)">
+                    <div class="flex-col-c-m size2 how-countdown p27-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(27,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -821,19 +821,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p28-r1 pintar-hover" onclick="pintarrespuestas(28,1)">
+                    <div class="flex-col-c-m size2 how-countdown p28-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(28,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p28-r2 pintar-hover" onclick="pintarrespuestas(28,2)">
+                    <div class="flex-col-c-m size2 how-countdown p28-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(28,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p28-r3 pintar-hover" onclick="pintarrespuestas(28,3)">
+                    <div class="flex-col-c-m size2 how-countdown p28-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(28,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p28-r4 pintar-hover" onclick="pintarrespuestas(28,4)">
+                    <div class="flex-col-c-m size2 how-countdown p28-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(28,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -850,19 +850,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p29-r1 pintar-hover" onclick="pintarrespuestas(29,1)">
+                    <div class="flex-col-c-m size2 how-countdown p29-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(29,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p29-r2 pintar-hover" onclick="pintarrespuestas(29,2)">
+                    <div class="flex-col-c-m size2 how-countdown p29-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(29,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p29-r3 pintar-hover" onclick="pintarrespuestas(29,3)">
+                    <div class="flex-col-c-m size2 how-countdown p29-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(29,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p29-r4 pintar-hover" onclick="pintarrespuestas(29,4)">
+                    <div class="flex-col-c-m size2 how-countdown p29-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(29,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -879,19 +879,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p30-r1 pintar-hover" onclick="pintarrespuestas(30,1)">
+                    <div class="flex-col-c-m size2 how-countdown p30-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(30,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p30-r2 pintar-hover" onclick="pintarrespuestas(30,2)">
+                    <div class="flex-col-c-m size2 how-countdown p30-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(30,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p30-r3 pintar-hover" onclick="pintarrespuestas(30,3)">
+                    <div class="flex-col-c-m size2 how-countdown p30-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(30,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p30-r4 pintar-hover" onclick="pintarrespuestas(30,4)">
+                    <div class="flex-col-c-m size2 how-countdown p30-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(30,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -908,19 +908,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p31-r1 pintar-hover" onclick="pintarrespuestas(31,1)">
+                    <div class="flex-col-c-m size2 how-countdown p31-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(31,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p31-r2 pintar-hover" onclick="pintarrespuestas(31,2)">
+                    <div class="flex-col-c-m size2 how-countdown p31-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(31,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p31-r3 pintar-hover" onclick="pintarrespuestas(31,3)">
+                    <div class="flex-col-c-m size2 how-countdown p31-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(31,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p31-r4 pintar-hover" onclick="pintarrespuestas(31,4)">
+                    <div class="flex-col-c-m size2 how-countdown p31-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(31,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -937,19 +937,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p32-r1 pintar-hover" onclick="pintarrespuestas(32,1)">
+                    <div class="flex-col-c-m size2 how-countdown p32-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(32,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p32-r2 pintar-hover" onclick="pintarrespuestas(32,2)">
+                    <div class="flex-col-c-m size2 how-countdown p32-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(32,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p32-r3 pintar-hover" onclick="pintarrespuestas(32,3)">
+                    <div class="flex-col-c-m size2 how-countdown p32-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(32,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p32-r4 pintar-hover" onclick="pintarrespuestas(32,4)">
+                    <div class="flex-col-c-m size2 how-countdown p32-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(32,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -966,19 +966,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p33-r1 pintar-hover" onclick="pintarrespuestas(33,1)">
+                    <div class="flex-col-c-m size2 how-countdown p33-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(33,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p33-r2 pintar-hover" onclick="pintarrespuestas(33,2)">
+                    <div class="flex-col-c-m size2 how-countdown p33-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(33,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p33-r3 pintar-hover" onclick="pintarrespuestas(33,3)">
+                    <div class="flex-col-c-m size2 how-countdown p33-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(33,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p33-r4 pintar-hover" onclick="pintarrespuestas(33,4)">
+                    <div class="flex-col-c-m size2 how-countdown p33-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(33,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -995,19 +995,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p34-r1 pintar-hover" onclick="pintarrespuestas(34,1)">
+                    <div class="flex-col-c-m size2 how-countdown p34-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(34,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p34-r2 pintar-hover" onclick="pintarrespuestas(34,2)">
+                    <div class="flex-col-c-m size2 how-countdown p34-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(34,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p34-r3 pintar-hover" onclick="pintarrespuestas(34,3)">
+                    <div class="flex-col-c-m size2 how-countdown p34-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(34,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p34-r4 pintar-hover" onclick="pintarrespuestas(34,4)">
+                    <div class="flex-col-c-m size2 how-countdown p34-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(34,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -1024,19 +1024,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p35-r1 pintar-hover" onclick="pintarrespuestas(35,1)">
+                    <div class="flex-col-c-m size2 how-countdown p35-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(35,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p35-r2 pintar-hover" onclick="pintarrespuestas(35,2)">
+                    <div class="flex-col-c-m size2 how-countdown p35-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(35,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p35-r3 pintar-hover" onclick="pintarrespuestas(35,3)">
+                    <div class="flex-col-c-m size2 how-countdown p35-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(35,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p35-r4 pintar-hover" onclick="pintarrespuestas(35,4)">
+                    <div class="flex-col-c-m size2 how-countdown p35-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(35,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -1053,19 +1053,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p36-r1 pintar-hover" onclick="pintarrespuestas(36,1)">
+                    <div class="flex-col-c-m size2 how-countdown p36-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(36,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p36-r2 pintar-hover" onclick="pintarrespuestas(36,2)">
+                    <div class="flex-col-c-m size2 how-countdown p36-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(36,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p36-r3 pintar-hover" onclick="pintarrespuestas(36,3)">
+                    <div class="flex-col-c-m size2 how-countdown p36-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(36,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p36-r4 pintar-hover" onclick="pintarrespuestas(36,4)">
+                    <div class="flex-col-c-m size2 how-countdown p36-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(36,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -1082,19 +1082,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p37-r1 pintar-hover" onclick="pintarrespuestas(37,1)">
+                    <div class="flex-col-c-m size2 how-countdown p37-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(37,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p37-r2 pintar-hover" onclick="pintarrespuestas(37,2)">
+                    <div class="flex-col-c-m size2 how-countdown p37-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(37,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p37-r3 pintar-hover" onclick="pintarrespuestas(37,3)">
+                    <div class="flex-col-c-m size2 how-countdown p37-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(37,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p37-r4 pintar-hover" onclick="pintarrespuestas(37,4)">
+                    <div class="flex-col-c-m size2 how-countdown p37-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(37,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -1111,19 +1111,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p38-r1 pintar-hover" onclick="pintarrespuestas(38,1)">
+                    <div class="flex-col-c-m size2 how-countdown p38-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(38,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p38-r2 pintar-hover" onclick="pintarrespuestas(38,2)">
+                    <div class="flex-col-c-m size2 how-countdown p38-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(38,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p38-r3 pintar-hover" onclick="pintarrespuestas(38,3)">
+                    <div class="flex-col-c-m size2 how-countdown p38-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(38,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p38-r4 pintar-hover" onclick="pintarrespuestas(38,4)">
+                    <div class="flex-col-c-m size2 how-countdown p38-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(38,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -1140,18 +1140,18 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p39-r1 pintar-hover" onclick="pintarrespuestas(39,1)">
+                    <div class="flex-col-c-m size2 how-countdown p39-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(39,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p39-r2 pintar-hover" onclick="pintarrespuestas(39,2)">
+                    <div class="flex-col-c-m size2 how-countdown p39-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(39,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p39-r3 pintar-hover" onclick="pintarrespuestas(39,3)">
+                    <div class="flex-col-c-m size2 how-countdown p39-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(39,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
-                    <div class="flex-col-c-m size2 how-countdown p39-r4 pintar-hover" onclick="pintarrespuestas(39,4)">
+                    <div class="flex-col-c-m size2 how-countdown p39-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(39,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -1168,19 +1168,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p40-r1 pintar-hover" onclick="pintarrespuestas(40,1)">
+                    <div class="flex-col-c-m size2 how-countdown p40-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(40,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p40-r2 pintar-hover" onclick="pintarrespuestas(40,2)">
+                    <div class="flex-col-c-m size2 how-countdown p40-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(40,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p40-r3 pintar-hover" onclick="pintarrespuestas(40,3)">
+                    <div class="flex-col-c-m size2 how-countdown p40-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(40,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p40-r4 pintar-hover" onclick="pintarrespuestas(40,4)">
+                    <div class="flex-col-c-m size2 how-countdown p40-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(40,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -1197,19 +1197,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p41-r1 pintar-hover" onclick="pintarrespuestas(41,1)">
+                    <div class="flex-col-c-m size2 how-countdown p41-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(41,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p41-r2 pintar-hover" onclick="pintarrespuestas(41,2)">
+                    <div class="flex-col-c-m size2 how-countdown p41-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(41,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p41-r3 pintar-hover" onclick="pintarrespuestas(41,3)">
+                    <div class="flex-col-c-m size2 how-countdown p41-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(41,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p41-r4 pintar-hover" onclick="pintarrespuestas(41,4)">
+                    <div class="flex-col-c-m size2 how-countdown p41-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(41,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -1226,19 +1226,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p42-r1 pintar-hover" onclick="pintarrespuestas(42,1)">
+                    <div class="flex-col-c-m size2 how-countdown p42-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(42,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p42-r2 pintar-hover" onclick="pintarrespuestas(42,2)">
+                    <div class="flex-col-c-m size2 how-countdown p42-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(42,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p42-r3 pintar-hover" onclick="pintarrespuestas(42,3)">
+                    <div class="flex-col-c-m size2 how-countdown p42-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(42,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p42-r4 pintar-hover" onclick="pintarrespuestas(42,4)">
+                    <div class="flex-col-c-m size2 how-countdown p42-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(42,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -1255,19 +1255,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p43-r1 pintar-hover" onclick="pintarrespuestas(43,1)">
+                    <div class="flex-col-c-m size2 how-countdown p43-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(43,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p43-r2 pintar-hover" onclick="pintarrespuestas(43,2)">
+                    <div class="flex-col-c-m size2 how-countdown p43-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(43,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p43-r3 pintar-hover" onclick="pintarrespuestas(43,3)">
+                    <div class="flex-col-c-m size2 how-countdown p43-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(43,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p43-r4 pintar-hover" onclick="pintarrespuestas(43,4)">
+                    <div class="flex-col-c-m size2 how-countdown p43-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(43,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -1284,19 +1284,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p44-r1 pintar-hover" onclick="pintarrespuestas(44,1)">
+                    <div class="flex-col-c-m size2 how-countdown p44-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(44,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p44-r2 pintar-hover" onclick="pintarrespuestas(44,2)">
+                    <div class="flex-col-c-m size2 how-countdown p44-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(44,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p44-r3 pintar-hover" onclick="pintarrespuestas(44,3)">
+                    <div class="flex-col-c-m size2 how-countdown p44-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(44,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p44-r4 pintar-hover" onclick="pintarrespuestas(44,4)">
+                    <div class="flex-col-c-m size2 how-countdown p44-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(44,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -1313,19 +1313,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p45-r1 pintar-hover" onclick="pintarrespuestas(45,1)">
+                    <div class="flex-col-c-m size2 how-countdown p45-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(45,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p45-r2 pintar-hover" onclick="pintarrespuestas(45,2)">
+                    <div class="flex-col-c-m size2 how-countdown p45-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(45,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p45-r3 pintar-hover" onclick="pintarrespuestas(45,3)">
+                    <div class="flex-col-c-m size2 how-countdown p45-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(45,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p45-r4 pintar-hover" onclick="pintarrespuestas(45,4)">
+                    <div class="flex-col-c-m size2 how-countdown p45-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(45,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -1342,19 +1342,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p46-r1 pintar-hover" onclick="pintarrespuestas(46,1)">
+                    <div class="flex-col-c-m size2 how-countdown p46-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(46,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p46-r2 pintar-hover" onclick="pintarrespuestas(46,2)">
+                    <div class="flex-col-c-m size2 how-countdown p46-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(46,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p46-r3 pintar-hover" onclick="pintarrespuestas(46,3)">
+                    <div class="flex-col-c-m size2 how-countdown p46-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(46,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p46-r4 pintar-hover" onclick="pintarrespuestas(46,4)">
+                    <div class="flex-col-c-m size2 how-countdown p46-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(46,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -1371,19 +1371,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p47-r1 pintar-hover" onclick="pintarrespuestas(47,1)">
+                    <div class="flex-col-c-m size2 how-countdown p47-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(47,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p47-r2 pintar-hover" onclick="pintarrespuestas(47,2)">
+                    <div class="flex-col-c-m size2 how-countdown p47-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(47,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p47-r3 pintar-hover" onclick="pintarrespuestas(47,3)">
+                    <div class="flex-col-c-m size2 how-countdown p47-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(47,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p47-r4 pintar-hover" onclick="pintarrespuestas(47,4)">
+                    <div class="flex-col-c-m size2 how-countdown p47-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(47,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -1400,19 +1400,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p48-r1 pintar-hover" onclick="pintarrespuestas(48,1)">
+                    <div class="flex-col-c-m size2 how-countdown p48-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(48,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p48-r2 pintar-hover" onclick="pintarrespuestas(48,2)">
+                    <div class="flex-col-c-m size2 how-countdown p48-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(48,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p48-r3 pintar-hover" onclick="pintarrespuestas(48,3)">
+                    <div class="flex-col-c-m size2 how-countdown p48-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(48,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p48-r4 pintar-hover" onclick="pintarrespuestas(48,4)">
+                    <div class="flex-col-c-m size2 how-countdown p48-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(48,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -1429,19 +1429,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p49-r1 pintar-hover" onclick="pintarrespuestas(49,1)">
+                    <div class="flex-col-c-m size2 how-countdown p49-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(49,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p49-r2 pintar-hover" onclick="pintarrespuestas(49,2)">
+                    <div class="flex-col-c-m size2 how-countdown p49-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(49,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p49-r3 pintar-hover" onclick="pintarrespuestas(49,3)">
+                    <div class="flex-col-c-m size2 how-countdown p49-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(49,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p49-r4 pintar-hover" onclick="pintarrespuestas(49,4)">
+                    <div class="flex-col-c-m size2 how-countdown p49-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(49,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -1458,19 +1458,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p50-r1 pintar-hover" onclick="pintarrespuestas(50,1)">
+                    <div class="flex-col-c-m size2 how-countdown p50-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(50,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p50-r2 pintar-hover" onclick="pintarrespuestas(50,2)">
+                    <div class="flex-col-c-m size2 how-countdown p50-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(50,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p50-r3 pintar-hover" onclick="pintarrespuestas(50,3)">
+                    <div class="flex-col-c-m size2 how-countdown p50-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(50,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p50-r4 pintar-hover" onclick="pintarrespuestas(50,4)">
+                    <div class="flex-col-c-m size2 how-countdown p50-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(50,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -1487,19 +1487,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p51-r1 pintar-hover" onclick="pintarrespuestas(51,1)">
+                    <div class="flex-col-c-m size2 how-countdown p51-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(51,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p51-r2 pintar-hover" onclick="pintarrespuestas(51,2)">
+                    <div class="flex-col-c-m size2 how-countdown p51-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(51,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p51-r3 pintar-hover" onclick="pintarrespuestas(51,3)">
+                    <div class="flex-col-c-m size2 how-countdown p51-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(51,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p51-r4 pintar-hover" onclick="pintarrespuestas(51,4)">
+                    <div class="flex-col-c-m size2 how-countdown p51-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(51,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -1516,19 +1516,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p52-r1 pintar-hover" onclick="pintarrespuestas(52,1)">
+                    <div class="flex-col-c-m size2 how-countdown p52-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(52,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p52-r2 pintar-hover" onclick="pintarrespuestas(52,2)">
+                    <div class="flex-col-c-m size2 how-countdown p52-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(52,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p52-r3 pintar-hover" onclick="pintarrespuestas(52,3)">
+                    <div class="flex-col-c-m size2 how-countdown p52-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(52,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p52-r4 pintar-hover" onclick="pintarrespuestas(52,4)">
+                    <div class="flex-col-c-m size2 how-countdown p52-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(52,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -1545,19 +1545,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p53-r1 pintar-hover" onclick="pintarrespuestas(53,1)">
+                    <div class="flex-col-c-m size2 how-countdown p53-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(53,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p53-r2 pintar-hover" onclick="pintarrespuestas(53,2)">
+                    <div class="flex-col-c-m size2 how-countdown p53-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(53,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p53-r3 pintar-hover" onclick="pintarrespuestas(53,3)">
+                    <div class="flex-col-c-m size2 how-countdown p53-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(53,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p53-r4 pintar-hover" onclick="pintarrespuestas(53,4)">
+                    <div class="flex-col-c-m size2 how-countdown p53-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(53,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -1570,23 +1570,23 @@
                 </h3>
 
                 <p class="txt-center l1-txt2 p-b-60">
-                    54. PMe fastidio fácilmente. *
+                    54. Me fastidio fácilmente. *
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p54-r1 pintar-hover" onclick="pintarrespuestas(54,1)">
+                    <div class="flex-col-c-m size2 how-countdown p54-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(54,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p54-r2 pintar-hover" onclick="pintarrespuestas(54,2)">
+                    <div class="flex-col-c-m size2 how-countdown p54-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(54,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p54-r3 pintar-hover" onclick="pintarrespuestas(54,3)">
+                    <div class="flex-col-c-m size2 how-countdown p54-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(54,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p54-r4 pintar-hover" onclick="pintarrespuestas(54,4)">
+                    <div class="flex-col-c-m size2 how-countdown p54-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(54,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -1603,19 +1603,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p55-r1 pintar-hover" onclick="pintarrespuestas(55,1)">
+                    <div class="flex-col-c-m size2 how-countdown p55-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(55,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p55-r2 pintar-hover" onclick="pintarrespuestas(55,2)">
+                    <div class="flex-col-c-m size2 how-countdown p55-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(55,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p55-r3 pintar-hover" onclick="pintarrespuestas(55,3)">
+                    <div class="flex-col-c-m size2 how-countdown p55-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(55,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p55-r4 pintar-hover" onclick="pintarrespuestas(55,4)">
+                    <div class="flex-col-c-m size2 how-countdown p55-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(55,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -1632,19 +1632,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p56-r1 pintar-hover" onclick="pintarrespuestas(56,1)">
+                    <div class="flex-col-c-m size2 how-countdown p56-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(56,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p56-r2 pintar-hover" onclick="pintarrespuestas(56,2)">
+                    <div class="flex-col-c-m size2 how-countdown p56-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(56,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p56-r3 pintar-hover" onclick="pintarrespuestas(56,3)">
+                    <div class="flex-col-c-m size2 how-countdown p56-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(56,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p56-r4 pintar-hover" onclick="pintarrespuestas(56,4)">
+                    <div class="flex-col-c-m size2 how-countdown p56-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(56,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -1661,19 +1661,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p57-r1 pintar-hover" onclick="pintarrespuestas(57,1)">
+                    <div class="flex-col-c-m size2 how-countdown p57-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(57,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p57-r2 pintar-hover" onclick="pintarrespuestas(57,2)">
+                    <div class="flex-col-c-m size2 how-countdown p57-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(57,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p57-r3 pintar-hover" onclick="pintarrespuestas(57,3)">
+                    <div class="flex-col-c-m size2 how-countdown p57-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(57,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p57-r4 pintar-hover" onclick="pintarrespuestas(57,4)">
+                    <div class="flex-col-c-m size2 how-countdown p57-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(57,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -1690,19 +1690,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p58-r1 pintar-hover" onclick="pintarrespuestas(58,1)">
+                    <div class="flex-col-c-m size2 how-countdown p58-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(58,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p58-r2 pintar-hover" onclick="pintarrespuestas(58,2)">
+                    <div class="flex-col-c-m size2 how-countdown p58-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(58,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p58-r3 pintar-hover" onclick="pintarrespuestas(58,3)">
+                    <div class="flex-col-c-m size2 how-countdown p58-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(58,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p58-r4 pintar-hover" onclick="pintarrespuestas(58,4)">
+                    <div class="flex-col-c-m size2 how-countdown p58-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(58,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -1719,19 +1719,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p59-r1 pintar-hover" onclick="pintarrespuestas(59,1)">
+                    <div class="flex-col-c-m size2 how-countdown p59-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(59,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p59-r2 pintar-hover" onclick="pintarrespuestas(59,2)">
+                    <div class="flex-col-c-m size2 how-countdown p59-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(59,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p59-r3 pintar-hover" onclick="pintarrespuestas(59,3)">
+                    <div class="flex-col-c-m size2 how-countdown p59-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(59,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p59-r4 pintar-hover" onclick="pintarrespuestas(59,4)">
+                    <div class="flex-col-c-m size2 how-countdown p59-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(59,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>
@@ -1748,19 +1748,19 @@
                 </p>
 
                 <div class="flex-w flex-c cd100 p-b-82">
-                    <div class="flex-col-c-m size2 how-countdown p60-r1 pintar-hover" onclick="pintarrespuestas(60,1)">
+                    <div class="flex-col-c-m size2 how-countdown p60-r1 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(60,1)">
                         <span class="s1-txt1">1. MUY RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p60-r2 pintar-hover" onclick="pintarrespuestas(60,2)">
+                    <div class="flex-col-c-m size2 how-countdown p60-r2 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(60,2)">
                         <span class="s1-txt1">2. RARA VEZ</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p60-r3 pintar-hover" onclick="pintarrespuestas(60,3)">
+                    <div class="flex-col-c-m size2 how-countdown p60-r3 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(60,3)">
                         <span class="s1-txt1">3. MENUDO</span>
                     </div>
 
-                    <div class="flex-col-c-m size2 how-countdown p60-r4 pintar-hover" onclick="pintarrespuestas(60,4)">
+                    <div class="flex-col-c-m size2 how-countdown p60-r4 pintar-hover" style="cursor: pointer !important;" onclick="pintarrespuestas(60,4)">
                         <span class="s1-txt1">4. MUY A MENUDO</span>
                     </div>
                 </div>

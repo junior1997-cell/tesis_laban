@@ -7,5 +7,5 @@
 
 .pintar-hover:hover {
 
-  background-color: chartreuse;
+  background: linear-gradient( 45deg, #ac32e4, #7918f2, #4801ff);
 }

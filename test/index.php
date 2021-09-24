@@ -72,23 +72,18 @@
 
                 <div class="flex-w flex-c cd100 p-b-82">
                     <div class="flex-col-c-m size2 how-countdown">
-                        <span class="l1-txt3 p-b-9 days">35</span>
-                        <span class="s1-txt1">Days</span>
+                        <span class="l1-txt3 p-b-9 " id="total_varon"><i class="fa fa-spinner fa-pulse fa-fw"></i></span>
+                        <span class="s1-txt1">Varones</span>
                     </div>
 
                     <div class="flex-col-c-m size2 how-countdown">
-                        <span class="l1-txt3 p-b-9 hours">17</span>
-                        <span class="s1-txt1">Hours</span>
+                        <span class="l1-txt3 p-b-9 " id="total_mujer"><i class="fa fa-spinner fa-pulse fa-fw"></i></span>
+                        <span class="s1-txt1">Mujeres</span>
                     </div>
 
                     <div class="flex-col-c-m size2 how-countdown">
-                        <span class="l1-txt3 p-b-9 minutes">50</span>
-                        <span class="s1-txt1">Minutes</span>
-                    </div>
-
-                    <div class="flex-col-c-m size2 how-countdown">
-                        <span class="l1-txt3 p-b-9 seconds">39</span>
-                        <span class="s1-txt1">Seconds</span>
+                        <span class="l1-txt3 p-b-9 " id="total"><i class="fa fa-spinner fa-pulse fa-fw"></i></span>
+                        <span class="s1-txt1">Total</span>
                     </div>
                 </div>
 

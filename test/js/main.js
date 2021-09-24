@@ -3,25 +3,42 @@ function init() {
     //Cargamos los departamentos
 	$.post("ajax/test_baron.php?op=departamento", function(r){
 
-        console.log(r);
-
 		$("#departamento").html(r);
 	});
 
-    //Cargamos los departamentos
+    //Cargamos los provincia
 	$.post("ajax/test_baron.php?op=provincia", function(r){
-
-        console.log(r);
-
 		$("#provincia").html(r);
 	});
 
-    //Cargamos los departamentos
+    //Cargamos los distrito
 	$.post("ajax/test_baron.php?op=distrito", function(r){
 
-        console.log(r);
-
 		$("#distrito").html(r);
+	});
+
+    //Cargamos los total varon respuestas
+	$.post("ajax/test_baron.php?op=mostrar_total_hombre", function(data, status){
+
+        var data1 = JSON.parse(data);   console.log(data1.total);
+
+		$("#total_varon").html(data1.total);
+	});
+
+    //Cargamos los total mujer respuestas
+	$.post("ajax/test_baron.php?op=mostrar_total_mujeres", function(data, status){
+
+        var data2 = JSON.parse(data);    console.log(data2.total);
+
+		$("#total_mujer").html(data2.total);
+	});
+
+    //Cargamos los total de respuestas
+	$.post("ajax/test_baron.php?op=mostrar_total", function(data, status){
+
+        var data3 = JSON.parse(data);    console.log(data3.total);
+
+		$("#total").html(data3.total);
 	});
 }
 
@@ -29,7 +46,7 @@ function init() {
     "use strict";
 
     /*================================================================== [ Validate ]*/
-    
+
     var input = $('.validate-input .input100');
 
     $('.validate-form').on('submit',function(){

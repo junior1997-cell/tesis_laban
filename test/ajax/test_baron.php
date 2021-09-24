@@ -40,6 +40,30 @@
 
 		break;
 
+		case 'mostrar_total_mujeres':
+
+			$rspta = $test_baron->mostrar_total_mujeres();
+			
+			echo json_encode($rspta);
+
+		break;
+
+		case 'mostrar_total_hombre':
+
+			$rspta = $test_baron->mostrar_total_hombres();
+			
+			echo json_encode($rspta);
+
+		break;
+
+		case 'mostrar_total':
+
+			$rspta = $test_baron->mostrar_total();
+			
+			echo json_encode($rspta);
+
+		break;
+
 		case "departamento":
 	
 			$rspta = $test_baron->select_departamento();

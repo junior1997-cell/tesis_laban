@@ -56,5 +56,29 @@
 
 			return ejecutarConsulta($sql);		
 		}
+
+		// Cargamos los total varon respuestas
+		public function mostrar_total_mujeres()
+		{
+			$sql="SELECT count(*) as total FROM tesis_laban.respuesta as r, tesis_laban.persona as p where  r.idpersona = p.id_persona and p.sexo = 'Femenino';";
+
+			return ejecutarConsultaSimpleFila($sql);		
+		}
+
+		// Cargamos los total varon respuestas
+		public function mostrar_total_hombres()
+		{
+			$sql="SELECT count(*) as total FROM tesis_laban.respuesta as r, tesis_laban.persona as p where  r.idpersona = p.id_persona and p.sexo = 'Masculino';";
+
+			return ejecutarConsultaSimpleFila($sql);		
+		}
+
+		// Cargamos los total varon respuestas
+		public function mostrar_total()
+		{
+			$sql="SELECT count(*) as total FROM tesis_laban.respuesta ;";
+
+			return ejecutarConsultaSimpleFila($sql);		
+		}
 	}
 ?>
