@@ -37,16 +37,30 @@
             width: 90px;
             height: 90px;
         }
+		/* (1280x720) Galaxy Note 2, WXGA */
+		@media only screen and (min-device-width: 290px) and (max-device-width: 938px) {
+            /* insert styles here */
+            .video{
+                
+                display: none;
+            }
+            .boady{
+                background-color: brown;
+            }
+            .bag{
+                background-color: #992e45;
+            }
+        }
 
     </style>
-    <body>
+    <body class="boady">
         <div style="position: absolute;">
             <video autoplay="" muted="" loop="" class="video">
                 <source src="images/v_fondo.mp4" type="video/mp4" />
             </video>
             <div class="overlay"></div>
         </div>
-        <div class="size1 flex-w flex-col-c-sb p-l-15 p-r-15 p-t-55 p-b-35 respon1" style="position: absolute;">
+        <div class="size1 flex-w flex-col-c-sb p-l-15 p-r-15 p-t-55 p-b-35 respon1 bag" style="position: absolute;">
             <div class="flex-col-c p-t-50 p-b-50">
                 <h3 class="l1-txt1 txt-center p-b-10">
                     Test Ice de Baron
