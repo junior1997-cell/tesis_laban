@@ -1,0 +1,11 @@
+
+.pintar-respuesta{
+    background-color: aquamarine;
+    cursor: pointer;
+
+}
+
+.pintar-hover:hover {
+
+  background-color: chartreuse;
+}

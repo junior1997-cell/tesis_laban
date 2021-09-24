@@ -2,15 +2,19 @@
 //Función que se ejecuta al inicio
 function init(){
 	
-	$("#formulario_venta").on("submit",function(e){
+	$("#formulario_test").on("submit",function(e){
 
-		guardaryeditar_venta(e);	
+		guardaryeditar_test(e);	
 
 	});
 
 }
 
-function guardaryeditar_venta(e)
+function pintarrespuestas(id){
+
+}
+
+function guardaryeditar_test(e)
 {
 	e.preventDefault(); //No se activará la acción predeterminada del evento
 	
