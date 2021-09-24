@@ -2,7 +2,7 @@
 	//Incluímos inicialmente la conexión a la base de datos
 	require "../config/Conexion.php";
 
-	Class Venta
+	Class TestBaron
 	{
 		//Implementamos nuestro constructor
 		public function __construct(){	}
@@ -31,6 +31,30 @@
 			}
 
 			return $sw;
+		}
+
+		// Select Departamento
+		public function select_departamento()
+		{
+			$sql="SELECT * FROM tesis_laban.departamento;";
+
+			return ejecutarConsulta($sql);		
+		}
+
+		// Select Provincia
+		public function select_provincia()
+		{
+			$sql="SELECT * FROM tesis_laban.provincia;";
+
+			return ejecutarConsulta($sql);		
+		}
+
+		// Select Distrito
+		public function select_distrito()
+		{
+			$sql="SELECT * FROM tesis_laban.distrito;";
+
+			return ejecutarConsulta($sql);		
 		}
 	}
 ?>

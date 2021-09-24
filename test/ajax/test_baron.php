@@ -7,14 +7,14 @@
 	}
 
 	//Llamamos al modelo, donde estan nuestras consultas a la Base de Datos.
-	require_once "../modelos/Venta.php";
+	require_once "../modelos/TestBaron.php";
 
 	// Instanciamos la Clase del modelo
-	$venta=new Venta();
+	$test_baron=new TestBaron();
 
 	// Recepcionamos las inputs del formulario
 	$nombre				=isset($_POST["nombre"])? limpiarCadena($_POST["nombre"]):"";
-	$apellidos			=$_SESSION["apellidos"];
+	$apellidos			=isset($_POST["apellidos"])? limpiarCadena($_POST["apellidos"]):"";
 	$codigo_estudiante	=isset($_POST["codigo_estudiante"])? limpiarCadena($_POST["codigo_estudiante"]):"";
 	$sexo				=isset($_POST["sexo"])? limpiarCadena($_POST["sexo"]):"";
 	$edad				=isset($_POST["edad"])? limpiarCadena($_POST["edad"]):"";
@@ -28,7 +28,7 @@
 
 			if (!empty($nombre)){
 
-				$rspta=$venta->insertar($nombre,$apellidos,$codigo_estudiante,$sexo,$edad,$numero_telefono,$escuela_profesional,$ciclo_grupo,$_POST["pregunta"],$_POST["punto"]);
+				$rspta=$test_baron->insertar($nombre,$apellidos,$codigo_estudiante,$sexo,$edad,$numero_telefono,$escuela_profesional,$ciclo_grupo,$_POST["pregunta"],$_POST["punto"]);
 				
 				echo $rspta ? "ok" : "No se pudieron registrar tus datos";
 
@@ -36,6 +36,66 @@
 
 				echo "No se pudieron registrar tus datos";
 				
+			}
+
+		break;
+
+		case "departamento":
+	
+			$rspta = $test_baron->select_departamento();
+
+			$estado = true;
+
+			while ($reg = $rspta->fetch_object()) {
+
+				if ($estado) {
+
+					echo '<option value=' . '' . '>Departamento</option>';
+					
+					$estado= false;
+				}	
+
+			  	echo '<option value=' . $reg->id_departamento . '>' . $reg->nombre . '</option>';
+			}
+
+		break;
+
+		case "provincia":
+	
+			$rspta = $test_baron->select_provincia();
+			
+			$estado = true;
+
+			while ($reg = $rspta->fetch_object()) {
+
+				if ($estado) {
+
+					echo '<option value=' . '' . '>Provincia</option>';
+					
+					$estado= false;
+				}
+
+			  echo '<option value=' . $reg->id_provincia . '>' . $reg->nombre . '</option>';
+			}
+
+		break;
+
+		case "distrito":
+	
+			$rspta = $test_baron->select_distrito();
+			
+			$estado = true;
+
+			while ($reg = $rspta->fetch_object()) {
+
+				if ($estado) {
+
+					echo '<option value=' . '' . '>Distrito</option>';
+					
+					$estado= false;
+				}
+
+			  echo '<option value=' . $reg->id_distrito . '>' . $reg->nombre . '</option>';
 			}
 
 		break;
