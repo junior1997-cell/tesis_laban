@@ -20,7 +20,7 @@ function init() {
     //Cargamos los total varon respuestas
 	$.post("ajax/test_baron.php?op=mostrar_total_hombre", function(data, status){
 
-        var data1 = JSON.parse(data);   console.log(data1.total);
+        var data1 = JSON.parse(data);    
 
 		$("#total_varon").html(data1.total);
 	});
@@ -28,7 +28,7 @@ function init() {
     //Cargamos los total mujer respuestas
 	$.post("ajax/test_baron.php?op=mostrar_total_mujeres", function(data, status){
 
-        var data2 = JSON.parse(data);    console.log(data2.total);
+        var data2 = JSON.parse(data);     
 
 		$("#total_mujer").html(data2.total);
 	});
@@ -36,7 +36,7 @@ function init() {
     //Cargamos los total de respuestas
 	$.post("ajax/test_baron.php?op=mostrar_total", function(data, status){
 
-        var data3 = JSON.parse(data);    console.log(data3.total);
+        var data3 = JSON.parse(data);    
 
 		$("#total").html(data3.total);
 	});
@@ -125,6 +125,7 @@ function init() {
         localStorage.setItem('universidad', $("#universidad").val()); 
         localStorage.setItem('carrera', $("#carrera").val());
         localStorage.setItem('tipo_colegio', $("#tipo_colegio").val());    
+        localStorage.setItem('departamento', $("#departamento").val());
         console.log($("#nombre").val());
         console.log($("#apellidos").val());
         console.log($("#codigo_estudiante").val());
@@ -136,13 +137,11 @@ function init() {
         console.log($("#universidad").val());
         console.log($("#carrera").val());
         console.log($("#tipo_colegio").val());
+        console.log($("#departamento").val());
     })
     
     $('.btn-close-modal').on('click', function(e){
-
-        $('#subscribe').modal('hide'); 
-
-         
+        $('#subscribe').modal('hide');          
     });
 
 })(jQuery);

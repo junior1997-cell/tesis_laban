@@ -188,13 +188,10 @@
                                             <option value="Privado">Privado</option>
                                         </select>
 										<span class="focus-input100"></span>
-										 
-										
                                     </div>
 									 
                                     <div class="m-b-10 validate-input" data-validate="Departamento es requerido">
-                                        <select name="departamento" id="departamento" class="s1-txt4 placeholder0 input100 form-control" style="height: 39px; border-radius: 15px; color: #999999;">
-                                             
+                                        <select name="departamento" id="departamento" class="s1-txt4 placeholder0 input100 form-control" style="height: 39px; border-radius: 15px; color: #999999;">                                             
                                         </select>
 										<span class="focus-input100"></span>
                                     </div>
@@ -217,6 +214,8 @@
                 </div>
             </div>
         </div>
+
+        
 
         <!--===============================================================================================-->
         <script src="vendor/jquery/jquery-3.2.1.min.js"></script>

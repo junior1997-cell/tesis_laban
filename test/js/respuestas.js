@@ -1,4 +1,5 @@
-
+var preguntacarrito= [];
+var respuestacarrito= [];
 //Función que se ejecuta al inicio
 function init(){
 	
@@ -12,22 +13,144 @@ function init(){
 }
 
 function pintarrespuestas(p,r){
-    console.log(p+'--'+r);
-    var cont=0;
-     $(".p"+p+"-r"+r).addClass('pintar-respuesta');
-     if (p==1) {
-        $(".pregunta-1").hide();
-        $(".pregunta-2").show();
-        toastr.success("Cambios guardados !!")
-     }else {
-         cont=p+1;
-        console.log(cont);
-        $(".pregunta-"+p).hide();
-        $(".pregunta-"+cont).show();
-        toastr.success("Cambios guardados !!")
-     }
-     //console.log('Holaaaaaaaaaaaaaaaaaaaaaaaaaa');
 
+    var cont=0;
+
+    $(".p"+p+"-r"+r).addClass('pintar-respuesta');
+
+    // istanciamos la pregunta
+    let pregunta= p;
+      
+    const arraypregunta ={
+        pregunta:pregunta
+    }
+
+    // instaciamos la respuesta
+    let respuesta= r;
+      
+    const arrayrespuesta ={
+        respuesta:respuesta
+    }
+
+    if (p==1) {
+
+        $(".pregunta-1").hide();
+
+        $(".pregunta-2").show();
+
+        toastr.success("Cambios guardados !!")
+
+        // guardamos la pregunta
+        preguntacarrito=[...preguntacarrito,arraypregunta];
+
+        var arraypreguntaconvert = JSON.stringify(preguntacarrito);
+        
+        localStorage.setItem("arraypregunta", arraypreguntaconvert);
+
+        // guardamos la repuesta
+        respuestacarrito=[...respuestacarrito,arrayrespuesta];
+
+        var arrayrespuestaconvert = JSON.stringify(respuestacarrito);
+        
+        localStorage.setItem("arrayrespuesta", arrayrespuestaconvert);
+
+    }else {
+
+        if (p == 60) {
+
+            // guardamos la pregunta
+            preguntacarrito=[...preguntacarrito,arraypregunta];
+
+            var arraypreguntaconvert = JSON.stringify(preguntacarrito);
+            
+            localStorage.setItem("arraypregunta", arraypreguntaconvert);
+            
+            // guardamos la repuesta
+            respuestacarrito=[...respuestacarrito,arrayrespuesta];
+
+            var arrayrespuestaconvert = JSON.stringify(respuestacarrito);
+            
+            localStorage.setItem("arrayrespuesta", arrayrespuestaconvert);
+
+            toastr.success("Cambios guardando en la BD... !!")
+
+            let nombre              = localStorage.getItem('nombre'); 
+            let codigo_estudiante   =localStorage.getItem('codigo_estudiante'); 
+            let apellidos           =localStorage.getItem('apellidos'); 
+            let distrito            =localStorage.getItem('distrito'); 
+            let sexo                =localStorage.getItem('sexo');
+            let nacimiento          =localStorage.getItem('nacimiento'); 
+            let celular             =localStorage.getItem('celular'); 
+            let provincia           =localStorage.getItem('provincia'); 
+            let universidad         =localStorage.getItem('universidad'); 
+            let carrera             =localStorage.getItem('carrera');
+            let tipo_colegio        =localStorage.getItem('tipo_colegio');    
+            let departamento        =localStorage.getItem('departamento');
+            
+            let pregunta            = JSON.parse(localStorage.getItem('arraypregunta'));
+            let punto           = JSON.parse(localStorage.getItem('arrayrespuesta'));
+            console.log(pregunta);
+            console.log(punto);
+            $('#modal-guardando').modal('show');
+            $.post("ajax/test_baron.php?op=guardaryeditar", 
+                {
+                    nombre : nombre,
+                    codigo_estudiante : codigo_estudiante,
+                    apellidos : apellidos,
+                    distrito : distrito,
+                    sexo : sexo,
+                    nacimiento : nacimiento,
+                    celular : celular,
+                    provincia : provincia,
+                    universidad : universidad,
+                    carrera : carrera,
+                    tipo_colegio : tipo_colegio,
+                    departamento : departamento,
+                    pregunta : pregunta,
+                    punto : punto,
+                }, 
+                function(e){
+                    if (e == "ok") {
+                        console.log(e);
+                        cont=p+1;
+
+                        $(".pregunta-"+p).hide();
+        
+                        $(".pregunta-"+cont).show();
+
+                        $('#modal-guardando').modal('hide');
+                    } else {
+
+                        toastr.error(e)
+
+                    }                
+                }
+            );
+
+        }else{
+            // guardamos la pregunta 
+            preguntacarrito=[...preguntacarrito,arraypregunta];
+
+            var arraypreguntaconvert = JSON.stringify(preguntacarrito);
+            
+            localStorage.setItem("arraypregunta", arraypreguntaconvert);
+
+            // guardamos la repuesta
+            respuestacarrito=[...respuestacarrito,arrayrespuesta];
+
+            var arrayrespuestaconvert = JSON.stringify(respuestacarrito);
+            
+            localStorage.setItem("arrayrespuesta", arrayrespuestaconvert);
+    
+            cont=p+1;
+    
+            $(".pregunta-"+p).hide();
+    
+            $(".pregunta-"+cont).show();
+    
+            toastr.success("Cambios guardados !!")
+        }       
+    }
 }
 
 function guardaryeditar_test(e)
@@ -77,7 +200,7 @@ function buscar_sunat_reniec() {
             $.post("../ajax/persona.php?op=reniec", { dni: dni_ruc }, function (data, status) {
                 
                 data = JSON.parse(data);
-                console.log(data);
+                
                 if (data.success == false) {
 
                     $('#search').show();
@@ -117,7 +240,7 @@ function buscar_sunat_reniec() {
                 $.post("../ajax/persona.php?op=sunat", { ruc: dni_ruc }, function (data, status) {
                      
                     data = JSON.parse(data);
-                    console.log(data);
+
                     if (data.success == false) {
 
                         $('#search').show();
@@ -136,6 +259,7 @@ function buscar_sunat_reniec() {
                             $("#nombre").val(data.razonSocial);
 
                             data.nombreComercial == null ? $("#apellidos_nombre_comercial").val('-') : $("#apellidos_nombre_comercial").val(data.nombreComercial);
+                            
                             data.direccion == null ? $("#direccion").val('-') : $("#direccion").val(data.direccion);
                             // $("#direccion").val(data.direccion);
                             toastr.success('Cliente encontrado');

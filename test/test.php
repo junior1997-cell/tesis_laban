@@ -1789,7 +1789,35 @@
             </div>
         </div>
 
+        <!-- modal guardando en la bd -->
+        <div class="modal fade" id="modal-guardando" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document" data-dismiss="modal">
+                <div class="modal-modal-guardando where1-parent bg0 bor2 size4 p-t-54 p-b-50 p-l-15 p-r-15">
+                    <button class="btn-close-modal how-btn2 fs-26 where1 trans-04" style="border: 1px solid #ffffff; -moz-border-radius: 7px;  -webkit-border-radius: 50%;  padding: 10px 20px; background: radial-gradient(transparent, #1f048c );">
+                        <i class="zmdi zmdi-close"></i>
+                    </button>
 
+                    <div class="wsize1 m-lr-auto">
+                        <h3 class="m1-txt1 txt-center p-b-36">
+                            <span class="bor1 p-b-6">Guardadno tus datos en la Base de Datos</span>
+                        </h3>
+
+                        <div class="m1-txt2 txt-center ">
+                             <img src="images/cargando.gif" alt="" width="300">
+                        </div>                        
+
+                        <p class="s1-txt5 txt-center wsize2 m-lr-auto p-t-20 p-b-20">
+                            <footer class="main-footer" style="text-align: center;">
+                                <strong>
+                                    Copyright &copy; <script>document.write(new Date().getFullYear())</script>
+                                </strong> 
+                                Todos los derechos reservados.
+                            </footer>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!--===============================================================================================-->
         <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
         <!--===============================================================================================-->
