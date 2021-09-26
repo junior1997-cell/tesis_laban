@@ -8,10 +8,10 @@
 		public function __construct(){	}
 
 		//Implementamos un método para insertar registros
-		public function insertar($nombre ,$codigo_estudiante ,$apellidos,$distrito,$sexo ,$fecha_nacimiento,$numero_celular ,$provincia ,$universidad ,	$carrera,$tipo_colegio,	$departamento,$pregunta,$punto)
+		public function insertar($nombre, $apellido, $codigo_estudiante, $sexo, $fecha_nacimiento, $numero_telefono, $universidad, $carrera, $tipo_colegio, $iddepartamento, $idprovincia, $iddistrito, $pregunta, $punto)
 		{
-			$sql="INSERT INTO persona (nombre ,codigo_estudiante ,apellidos,distrito,sexo ,fecha_nacimiento,numero_telefono ,provincia ,universidad ,carrera,tipo_colegio,departamento)
-			VALUES ('$nombre','$codigo_estudiante','$apellidos','$distrito','$sexo','$fecha_nacimiento','$numero_celular','$provincia','$universidad','$carrera','$tipo_colegio','$departamento')";
+			$sql="INSERT INTO tesis_laban.persona(nombre, apellido, codigo_estudiante, sexo, fecha_nacimiento, numero_telefono, universidad, carrera, tipo_colegio, iddepartamento, idprovincia, iddistrito)
+			VALUES ('$nombre', '$apellido', '$codigo_estudiante', '$sexo', '$fecha_nacimiento', '$numero_telefono', '$universidad', '$carrera', '$tipo_colegio', '$iddepartamento', '$idprovincia', '$iddistrito')";
 
 			//return ejecutarConsulta($sql);
 			$idpersona=ejecutarConsulta_retornarID($sql);
@@ -23,13 +23,13 @@
 			while ($num_elementos < count($punto))
 			{
 
-				$insertar_pregunta = "INSERT INTO respuesta(idpersona, idpregunta, idpunto)	
+				$insertar_pregunta = "INSERT INTO tesis_laban.respuesta(idpersona, idpregunta, idpunto)	
 				VALUES ('$idpersona', '$pregunta[$num_elementos]','$punto[$num_elementos]')";
 
 				ejecutarConsulta($insertar_pregunta) or $sw = false;
 			}
 
-			return $idpersona;
+			return $sw;
 		}
 
 		// Select Departamento

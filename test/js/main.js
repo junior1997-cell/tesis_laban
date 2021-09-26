@@ -119,8 +119,8 @@ function init() {
         localStorage.setItem('codigo_estudiante', $("#codigo_estudiante").val()); 
         localStorage.setItem('distrito', $("#distrito").val()); 
         localStorage.setItem('sexo', $("#sexo").val());
-        localStorage.setItem('nacimiento', $("#nacimiento").val()); 
-        localStorage.setItem('celular', $("#celular").val()); 
+        localStorage.setItem('fecha_nacimiento', $("#fecha_nacimiento").val()); 
+        localStorage.setItem('numero_telefono', $("#numero_telefono").val()); 
         localStorage.setItem('provincia', $("#provincia").val()); 
         localStorage.setItem('universidad', $("#universidad").val()); 
         localStorage.setItem('carrera', $("#carrera").val());
@@ -131,8 +131,8 @@ function init() {
         console.log($("#codigo_estudiante").val());
         console.log($("#distrito").val());
         console.log($("#sexo").val());
-        console.log($("#nacimiento").val());
-        console.log($("#celular").val());
+        console.log($("#fecha_nacimiento").val());
+        console.log($("#numero_telefono").val());
         console.log($("#provincia").val());
         console.log($("#universidad").val());
         console.log($("#carrera").val());

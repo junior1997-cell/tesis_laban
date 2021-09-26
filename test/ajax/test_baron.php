@@ -18,28 +18,26 @@
 
 		case 'guardaryeditar':
 			// Recepcionamos las inputs del formulario
-			 
-
-			$nombre =isset($_POST["nombre"])? limpiarCadena($_POST["nombre"]):"";
-			$codigo_estudiante =isset($_POST["codigo_estudiante"])? limpiarCadena($_POST["codigo_estudiante"]):"";
-			$apellidos =isset($_POST["apellidos"])? limpiarCadena($_POST["apellidos"]):"";
-			$distrito =isset($_POST["distrito"])? limpiarCadena($_POST["distrito"]):"";
-			$sexo =isset($_POST["sexo"])? limpiarCadena($_POST["sexo"]):"";
-			$nacimiento =isset($_POST["nacimiento"])? limpiarCadena($_POST["nacimiento"]):"";
-			$celular =isset($_POST["celular"])? limpiarCadena($_POST["celular"]):"";
-			$provincia =isset($_POST["provincia"])? limpiarCadena($_POST["provincia"]):"";
-			$universidad =isset($_POST["universidad"])? limpiarCadena($_POST["universidad"]):"";
-			$carrera =isset($_POST["carrera"])? limpiarCadena($_POST["carrera"]):"";
-			$tipo_colegio =isset($_POST["tipo_colegio"])? limpiarCadena($_POST["tipo_colegio"]):"";
-			$departamento =isset($_POST["departamento"])? limpiarCadena($_POST["departamento"]):"";
-			$pregunta =isset($_POST["pregunta"])? limpiarCadena($_POST["pregunta"]):"";
-			$punto =isset($_POST["punto"])? limpiarCadena($_POST["punto"]):"";
+			$nombre				=isset($_POST["nombre"])? limpiarCadena($_POST["nombre"]):""; 
+			$apellido			=isset($_POST["apellido"])? limpiarCadena($_POST["apellido"]):""; 
+			$codigo_estudiante	=isset($_POST["codigo_estudiante"])? limpiarCadena($_POST["codigo_estudiante"]):""; 
+			$sexo				=isset($_POST["sexo"])? limpiarCadena($_POST["sexo"]):""; 
+			$fecha_nacimiento	=isset($_POST["fecha_nacimiento"])? limpiarCadena($_POST["fecha_nacimiento"]):""; 
+			$numero_telefono	=isset($_POST["numero_telefono"])? limpiarCadena($_POST["numero_telefono"]):""; 
+			$universidad		=isset($_POST["universidad"])? limpiarCadena($_POST["universidad"]):""; 
+			$carrera			=isset($_POST["carrera"])? limpiarCadena($_POST["carrera"]):""; 
+			$tipo_colegio		=isset($_POST["tipo_colegio"])? limpiarCadena($_POST["tipo_colegio"]):""; 
+			$iddepartamento		=isset($_POST["departamento"])? limpiarCadena($_POST["departamento"]):""; 
+			$idprovincia		=isset($_POST["provincia"])? limpiarCadena($_POST["provincia"]):""; 
+			$iddistrito			=isset($_POST["distrito"])? limpiarCadena($_POST["distrito"]):"";
+			$pregunta 			=isset($_POST["pregunta"])? limpiarCadena($_POST["pregunta"]):"";
+			$punto 				=isset($_POST["punto"])? limpiarCadena($_POST["punto"]):"";
 
 			
 
 			if (!empty($nombre)){
 
-				$rspta=$test_baron->insertar($nombre ,$codigo_estudiante ,$apellidos,$distrito,$sexo ,$fecha_nacimiento,$numero_celular ,$provincia ,$universidad ,	$carrera,$tipo_colegio,	$departamento,$pregunta,$punto);
+				$rspta=$test_baron->insertar($nombre, $apellido, $codigo_estudiante, $sexo, $fecha_nacimiento, $numero_telefono, $universidad, $carrera, $tipo_colegio, $iddepartamento, $idprovincia, $iddistrito, $pregunta, $punto);
 				
 				echo $rspta ? "ok" : "No se pudieron registrar tus datos";
 

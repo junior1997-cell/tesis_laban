@@ -114,15 +114,15 @@
                             <div class="row">
                                 <div class="col-lg-4 col-md-4 col-sm-6 col-12">
                                     <div class="wrap-input100 m-b-10 validate-input" data-validate="Nombre es requerido">
-                                        <input class="s1-txt4 placeholder0 input100" type="text" name="nombre" placeholder="Nombre*" id="nombre" />
+                                        <input name="nombre" id="nombre" class="s1-txt4 placeholder0 input100" type="text"  placeholder="Nombre*"  />
                                         <span class="focus-input100"></span>
                                     </div>
                                     <div class="wrap-input100 m-b-10 validate-input" data-validate="Aprellido es requerido">
-                                        <input class="s1-txt4 placeholder0 input100" type="text" name="apellidos" placeholder="Apellidos*" id="apellidos" />
+                                        <input name="apellidos" id="apellidos" class="s1-txt4 placeholder0 input100" type="text"  placeholder="Apellidos*"/>
                                         <span class="focus-input100"></span>
                                     </div>
                                     <div class="wrap-input100 m-b-20 validate-input" data-validate="Código requerido">
-                                        <input class="s1-txt4 placeholder0 input100" type="text" name="codigo_estudiante" placeholder="Código de Estudiante *" />
+                                        <input name="codigo_estudiante" id="codigo_estudiante" class="s1-txt4 placeholder0 input100" type="text"  placeholder="Código de Estudiante *" />
                                         <span class="focus-input100"></span>
                                     </div>
                                     <div class="m-b-10 validate-input" data-validate="Distrito requerido" >
@@ -141,12 +141,12 @@
                                     </div>
 
                                     <div class="wrap-input100 m-b-10 validate-input" data-validate="Fecha nacimiento requerido">
-                                        <input id="nacimiento" class="input100" type="date" name="nacimiento" placeholder="Fecha de Nacimiento" style="height: 39px; border-radius: 15px; color: #999999;" />
+                                        <input name="fecha_nacimiento" id="fecha_nacimiento" class="input100" type="date"  placeholder="Fecha de Nacimiento" style="height: 39px; border-radius: 15px; color: #999999;" />
                                         <span class="focus-input100"></span>
                                     </div>
 
                                     <div class="wrap-input100 m-b-20 validate-input" data-validate="Número de teléfono requerido">
-                                        <input class="s1-txt4 placeholder0 input100" type="number" name="celular" id="celular" placeholder="Número de Teléfono *" />
+                                        <input name="numero_telefono" id="numero_telefono" class="s1-txt4 placeholder0 input100" type="number"  placeholder="Número de Teléfono *" />
                                         <span class="focus-input100"></span>
                                     </div>
                                     <div class="m-b-10 validate-input" data-validate="Provincia es requerido">
