@@ -75,43 +75,49 @@ function pintarrespuestas(p,r){
             toastr.success("Cambios guardando en la BD... !!")
 
             let nombre              = localStorage.getItem('nombre'); 
-            let codigo_estudiante   =localStorage.getItem('codigo_estudiante'); 
-            let apellidos           =localStorage.getItem('apellidos'); 
-            let distrito            =localStorage.getItem('distrito'); 
-            let sexo                =localStorage.getItem('sexo');
-            let nacimiento          =localStorage.getItem('nacimiento'); 
-            let celular             =localStorage.getItem('celular'); 
-            let provincia           =localStorage.getItem('provincia'); 
-            let universidad         =localStorage.getItem('universidad'); 
-            let carrera             =localStorage.getItem('carrera');
-            let tipo_colegio        =localStorage.getItem('tipo_colegio');    
-            let departamento        =localStorage.getItem('departamento');
+            let apellido            = localStorage.getItem('apellido'); 
+            let codigo_estudiante   = localStorage.getItem('codigo_estudiante'); 
+            let sexo                = localStorage.getItem('sexo'); 
+            let fecha_nacimiento    = localStorage.getItem('fecha_nacimiento');
+            let numero_telefono     = localStorage.getItem('numero_telefono'); 
+            let universidad         = localStorage.getItem('universidad'); 
+            let carrera             = localStorage.getItem('carrera'); 
+            let tipo_colegio        = localStorage.getItem('tipo_colegio'); 
+            let departamento        = localStorage.getItem('departamento');
+            let provincia           = localStorage.getItem('provincia');    
+            let distrito            = localStorage.getItem('distrito');
             
             let pregunta            = JSON.parse(localStorage.getItem('arraypregunta'));
-            let punto           = JSON.parse(localStorage.getItem('arrayrespuesta'));
+            let punto               = JSON.parse(localStorage.getItem('arrayrespuesta'));
+
             console.log(pregunta);
+
             console.log(punto);
+
             $('#modal-guardando').modal('show');
+
             $.post("ajax/test_baron.php?op=guardaryeditar", 
                 {
-                    nombre : nombre,
-                    codigo_estudiante : codigo_estudiante,
-                    apellidos : apellidos,
+                    nombre : nombre, 
+                    apellido : apellido, 
+                    codigo_estudiante : codigo_estudiante, 
+                    sexo : sexo, 
+                    fecha_nacimiento : fecha_nacimiento, 
+                    numero_telefono : numero_telefono, 
+                    universidad : universidad, 
+                    carrera : carrera, 
+                    tipo_colegio : tipo_colegio, 
+                    departamento : departamento, 
+                    provincia : provincia, 
                     distrito : distrito,
-                    sexo : sexo,
-                    nacimiento : nacimiento,
-                    celular : celular,
-                    provincia : provincia,
-                    universidad : universidad,
-                    carrera : carrera,
-                    tipo_colegio : tipo_colegio,
-                    departamento : departamento,
                     pregunta : pregunta,
                     punto : punto,
                 }, 
                 function(e){
                     if (e == "ok") {
+
                         console.log(e);
+
                         cont=p+1;
 
                         $(".pregunta-"+p).hide();
@@ -119,10 +125,10 @@ function pintarrespuestas(p,r){
                         $(".pregunta-"+cont).show();
 
                         $('#modal-guardando').modal('hide');
+
                     } else {
 
                         toastr.error(e)
-
                     }                
                 }
             );
