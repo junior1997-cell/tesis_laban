@@ -8,23 +8,24 @@
 		public function __construct(){	}
 
 		//Implementamos un método para insertar registros
-		public function insertar($nombre ,$codigo_estudiante ,$apellidos,$distrito,$sexo ,$fecha_nacimiento,$numero_celular ,$provincia ,$universidad ,	$carrera,$tipo_colegio,	$departamento,$pregunta,$punto)
+		public function insertar($nombre,$codigo_estudiante,$apellidos,$distrito,$sexo,$nacimiento,$celular,$provincia,$universidad,$carrera,$tipo_colegio,$departamento,$pregunta,$punto)
 		{
-			$sql="INSERT INTO persona (nombre ,codigo_estudiante ,apellidos,distrito,sexo ,fecha_nacimiento,numero_telefono ,provincia ,universidad ,carrera,tipo_colegio,departamento)
-			VALUES ('$nombre','$codigo_estudiante','$apellidos','$distrito','$sexo','$fecha_nacimiento','$numero_celular','$provincia','$universidad','$carrera','$tipo_colegio','$departamento')";
+			//var_dump($distrito);die;
+			$sql="INSERT INTO persona (nombre,codigo_estudiante,apellido,iddistrito,sexo,fecha_nacimiento,numero_telefono,idprovincia,universidad,carrera,tipo_colegio,iddepartamento )
+			VALUES ('$nombre','$codigo_estudiante','$apellidos','$distrito','$sexo','$nacimiento','$celular','$provincia','$universidad','$carrera','$tipo_colegio','$departamento')";
 
 			//return ejecutarConsulta($sql);
 			$idpersona=ejecutarConsulta_retornarID($sql);
 
 			$num_elementos=0;
-
+			//var_dump($idpersona);die;
 			$sw=true;
 
 			while ($num_elementos < count($punto))
 			{
 
-				$insertar_pregunta = "INSERT INTO respuesta(idpersona, idpregunta, idpunto)	
-				VALUES ('$idpersona', '$pregunta[$num_elementos]','$punto[$num_elementos]')";
+				$insertar_pregunta = "INSERT INTO respuesta(idpersona,idpregunta,idpunto)	
+				VALUES ('$idpersona','$pregunta[$num_elementos]','$punto[$num_elementos]')";
 
 				ejecutarConsulta($insertar_pregunta) or $sw = false;
 			}
