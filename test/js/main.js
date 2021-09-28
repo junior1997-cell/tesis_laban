@@ -115,7 +115,7 @@ function init() {
 
         e.stopPropagation();
         localStorage.setItem('nombre', $("#nombre").val()); 
-        localStorage.setItem('apellidos', $("#apellidos").val()); 
+        localStorage.setItem('apellido', $("#apellido").val()); 
         localStorage.setItem('codigo_estudiante', $("#codigo_estudiante").val()); 
         localStorage.setItem('distrito', $("#distrito").val()); 
         localStorage.setItem('sexo', $("#sexo").val());
@@ -127,7 +127,7 @@ function init() {
         localStorage.setItem('tipo_colegio', $("#tipo_colegio").val());    
         localStorage.setItem('departamento', $("#departamento").val());
         console.log($("#nombre").val());
-        console.log($("#apellidos").val());
+        console.log($("#apellido").val());
         console.log($("#codigo_estudiante").val());
         console.log($("#distrito").val());
         console.log($("#sexo").val());

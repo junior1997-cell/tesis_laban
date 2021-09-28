@@ -12,6 +12,10 @@ function init(){
     toastr.success("Bienvenido al Test de Baron !!")
 }
 
+function limpiar() {
+    $("#barra_progress").css({"width":'0%'});
+    $("#barra_progress").text("0%");
+}
 function pintarrespuestas(p,r){
 
     var cont=0;
@@ -19,18 +23,18 @@ function pintarrespuestas(p,r){
     $(".p"+p+"-r"+r).addClass('pintar-respuesta');
 
     // istanciamos la pregunta
-    let pregunta= p;
+    // let pregunta= p;
       
-    const arraypregunta ={
-        pregunta:pregunta
-    }
+    // const arraypregunta ={
+    //     pregunta:pregunta
+    // }
 
     // instaciamos la respuesta
-    let respuesta= r;
+    // let respuesta= r;
       
-    const arrayrespuesta ={
-        respuesta:respuesta
-    }
+    // const arrayrespuesta ={
+    //     respuesta:respuesta
+    // }
 
     if (p==1) {
 
@@ -41,34 +45,36 @@ function pintarrespuestas(p,r){
         toastr.success("Cambios guardados !!")
 
         // guardamos la pregunta
-        preguntacarrito=[...preguntacarrito,arraypregunta];
+        // preguntacarrito=[...preguntacarrito,preguntacarrito];
 
-        var arraypreguntaconvert = JSON.stringify(preguntacarrito);
+        var arraypreguntaconvert = JSON.stringify(preguntacarrito.push(p));
         
-        localStorage.setItem("arraypregunta", arraypreguntaconvert);
+        localStorage.setItem("arraypregunta", preguntacarrito);
 
         // guardamos la repuesta
-        respuestacarrito=[...respuestacarrito,arrayrespuesta];
+        // respuestacarrito=[...respuestacarrito,arrayrespuesta];
 
-        var arrayrespuestaconvert = JSON.stringify(respuestacarrito);
+        var arrayrespuestaconvert = JSON.stringify(respuestacarrito.push(r));
         
-        localStorage.setItem("arrayrespuesta", arrayrespuestaconvert);
+        localStorage.setItem("arrayrespuesta", respuestacarrito);
 
+        console.log(preguntacarrito);
+        console.log(arraypreguntaconvert);
     }else {
 
         if (p == 60) {
 
             // guardamos la pregunta
-            preguntacarrito=[...preguntacarrito,arraypregunta];
+            // preguntacarrito=[...preguntacarrito,arraypregunta];
 
-            var arraypreguntaconvert = JSON.stringify(preguntacarrito);
+            var arraypreguntaconvert = JSON.stringify(preguntacarrito.push(p));
             
             localStorage.setItem("arraypregunta", arraypreguntaconvert);
             
             // guardamos la repuesta
-            respuestacarrito=[...respuestacarrito,arrayrespuesta];
+            // respuestacarrito=[...respuestacarrito,arrayrespuesta];
 
-            var arrayrespuestaconvert = JSON.stringify(respuestacarrito);
+            var arrayrespuestaconvert = JSON.stringify(respuestacarrito.push(r));
             
             localStorage.setItem("arrayrespuesta", arrayrespuestaconvert);
 
@@ -87,14 +93,14 @@ function pintarrespuestas(p,r){
             let provincia           = localStorage.getItem('provincia');    
             let distrito            = localStorage.getItem('distrito');
             
-            let pregunta            = JSON.parse(localStorage.getItem('arraypregunta'));
-            let punto               = JSON.parse(localStorage.getItem('arrayrespuesta'));
+            let pregunta            = preguntacarrito;
+            let punto               = respuestacarrito;
 
             console.log(pregunta);
 
             console.log(punto);
 
-            $('#modal-guardando').modal('show');
+            $('#guardando-respuestas').show();
 
             $.post("ajax/test_baron.php?op=guardaryeditar", 
                 {
@@ -124,29 +130,32 @@ function pintarrespuestas(p,r){
         
                         $(".pregunta-"+cont).show();
 
-                        $('#modal-guardando').modal('hide');
-
+                        $('#guardando-respuestas').hide();
                     } else {
 
                         toastr.error(e)
                     }                
                 }
+                 
             );
-
+            
+            
+            // formData.append(nombre, apellido, codigo_estudiante, sexo, fecha_nacimiento, numero_telefono, universidad, carrera, tipo_colegio, departamento, provincia, distrito, pregunta, punto);
+             
         }else{
             // guardamos la pregunta 
-            preguntacarrito=[...preguntacarrito,arraypregunta];
+            // preguntacarrito=[...preguntacarrito,arraypregunta];
 
-            var arraypreguntaconvert = JSON.stringify(preguntacarrito);
+            var arraypreguntaconvert = JSON.stringify(preguntacarrito.push(p));
             
-            localStorage.setItem("arraypregunta", arraypreguntaconvert);
+            localStorage.setItem("arraypregunta", preguntacarrito);
 
             // guardamos la repuesta
-            respuestacarrito=[...respuestacarrito,arrayrespuesta];
+            // respuestacarrito=[...respuestacarrito,arrayrespuesta];
 
-            var arrayrespuestaconvert = JSON.stringify(respuestacarrito);
+            var arrayrespuestaconvert = JSON.stringify(respuestacarrito.push(r));
             
-            localStorage.setItem("arrayrespuesta", arrayrespuestaconvert);
+            localStorage.setItem("arrayrespuesta", respuestacarrito);
     
             cont=p+1;
     
@@ -155,8 +164,20 @@ function pintarrespuestas(p,r){
             $(".pregunta-"+cont).show();
     
             toastr.success("Cambios guardados !!")
+            console.log(preguntacarrito);
+            console.log(arraypreguntaconvert);
         }       
     }
+}
+
+
+function l_m(){
+
+    limpiar();
+
+    $("#barra_progress").css({"width":'0%'});
+
+    $("#barra_progress").text("0%");
 }
 
 function guardaryeditar_test(e)

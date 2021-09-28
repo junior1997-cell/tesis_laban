@@ -24,8 +24,12 @@
 			{
 
 				$insertar_pregunta = "INSERT INTO tesis_laban.respuesta(idpersona, idpregunta, idpunto)	
+
 				VALUES ('$idpersona', '$pregunta[$num_elementos]','$punto[$num_elementos]')";
+
 				ejecutarConsulta($insertar_pregunta) or $sw = false;
+
+				$num_elementos = $num_elementos + 1;
 			}
 
 			return $sw;
@@ -58,7 +62,7 @@
 		// Cargamos los total varon respuestas
 		public function mostrar_total_mujeres()
 		{
-			$sql="SELECT count(*) as total FROM tesis_laban.respuesta as r, tesis_laban.persona as p where  r.idpersona = p.id_persona and p.sexo = 'Femenino';";
+			$sql="SELECT count(*) as total FROM tesis_laban.persona as p where  p.sexo = 'Femenino';";
 
 			return ejecutarConsultaSimpleFila($sql);		
 		}
@@ -66,7 +70,7 @@
 		// Cargamos los total varon respuestas
 		public function mostrar_total_hombres()
 		{
-			$sql="SELECT count(*) as total FROM tesis_laban.respuesta as r, tesis_laban.persona as p where  r.idpersona = p.id_persona and p.sexo = 'Masculino';";
+			$sql="SELECT count(*) as total FROM tesis_laban.persona as p where  p.sexo = 'Masculino';";
 
 			return ejecutarConsultaSimpleFila($sql);		
 		}
@@ -74,7 +78,7 @@
 		// Cargamos los total varon respuestas
 		public function mostrar_total()
 		{
-			$sql="SELECT count(*) as total FROM tesis_laban.respuesta ;";
+			$sql="SELECT count(*) as total FROM tesis_laban.persona";
 
 			return ejecutarConsultaSimpleFila($sql);		
 		}

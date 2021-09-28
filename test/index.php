@@ -118,7 +118,7 @@
                                         <span class="focus-input100"></span>
                                     </div>
                                     <div class="wrap-input100 m-b-10 validate-input" data-validate="Aprellido es requerido">
-                                        <input name="apellidos" id="apellidos" class="s1-txt4 placeholder0 input100" type="text"  placeholder="Apellidos*"/>
+                                        <input name="apellido" id="apellido" class="s1-txt4 placeholder0 input100" type="text"  placeholder="Apellidos*"/>
                                         <span class="focus-input100"></span>
                                     </div>
                                     <div class="wrap-input100 m-b-20 validate-input" data-validate="Código requerido">
@@ -235,10 +235,8 @@
         <script src="vendor/countdowntime/moment-timezone.min.js"></script>
         <script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
         <script src="vendor/countdowntime/countdowntime.js"></script>
-        <script>
+        <!-- <script>
             $(".cd100").countdown100({
-                // Set Endtime here
-                // Endtime must be > current time
                 endtimeYear: 0,
                 endtimeMonth: 0,
                 endtimeDate: 35,
@@ -246,8 +244,6 @@
                 endtimeMinutes: 0,
                 endtimeSeconds: 0,
                 timeZone: "",
-                // ex:  timeZone: "America/New_York", can be empty
-                // go to " http://momentjs.com/timezone/ " to get timezone
             });
 
             window.addEventListener("load", function () {
@@ -263,7 +259,7 @@
             });
 
 			
-        </script>
+        </script> -->
         <!--===============================================================================================-->
         <script src="vendor/tilt/tilt.jquery.min.js"></script>
         <script>

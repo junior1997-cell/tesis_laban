@@ -30,14 +30,12 @@
 			$iddepartamento		=isset($_POST["departamento"])? limpiarCadena($_POST["departamento"]):""; 
 			$idprovincia		=isset($_POST["provincia"])? limpiarCadena($_POST["provincia"]):""; 
 			$iddistrito			=isset($_POST["distrito"])? limpiarCadena($_POST["distrito"]):"";
-			$pregunta 			=isset($_POST["pregunta"])? limpiarCadena($_POST["pregunta"]):"";
-			$punto 				=isset($_POST["punto"])? limpiarCadena($_POST["punto"]):"";
 
 			
 
 			if (!empty($nombre)){
 
-				$rspta=$test_baron->insertar($nombre, $apellido, $codigo_estudiante, $sexo, $fecha_nacimiento, $numero_telefono, $universidad, $carrera, $tipo_colegio, $iddepartamento, $idprovincia, $iddistrito, $pregunta, $punto);
+				$rspta=$test_baron->insertar($nombre, $apellido, $codigo_estudiante, $sexo, $fecha_nacimiento, $numero_telefono, $universidad, $carrera, $tipo_colegio, $iddepartamento, $idprovincia, $iddistrito, $_POST["pregunta"], $_POST["punto"]);
 
 				
 				echo $rspta ? "ok" : "No se pudieron registrar tus datos";
